@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.teachmeskills.final_assignment</groupId>
-    <artifactId>final_assignment</artifactId>
+    <artifactId>TeachMeSkills_Final_Assignment</artifactId>
     <version>1.0.0</version>
 
     <properties>
