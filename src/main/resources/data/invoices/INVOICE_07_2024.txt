@@ -1,0 +1,14 @@
+INVOICE
+
+East Repair Inc
+
+Invoice Date 03/07/2023
+Due Date 26/07/2023
+
+
+1. Repair tools set 789-1 model 100
+2. Repair tools set 789-4 model 101
+3. Repair tools set 789-5 model 102
+
+
+Total amount $303

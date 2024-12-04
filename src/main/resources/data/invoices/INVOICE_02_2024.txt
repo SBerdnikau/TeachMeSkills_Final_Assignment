@@ -1,0 +1,15 @@
+INVOICE
+
+East Repair Inc.
+
+Invoice Date 11/02/2023
+Due Date 26/02/2023
+
+Bill To: John Smoth, NY 12210
+Ship To: John Smoth, NY 12210
+
+1. Brake cables 100
+2. New tools set 234
+3. Labor 14
+
+Total amount 348

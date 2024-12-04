@@ -1,0 +1,8 @@
+From: WorlWide ABC Company
+Pay To: EU National Subcompany
+Check # 09
+Order # O4509
+Invoice # In4509
+Date: 15.09.2023
+
+Bill total amount EURO 99,00

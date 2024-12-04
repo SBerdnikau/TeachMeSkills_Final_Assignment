@@ -1,0 +1,17 @@
+INVOICE
+
+East Repair Incorporated
+
+Invoice Date 01/01/2023
+Due Date 26/01/2023
+
+
+1. Brake model 17 123
+2. Brake model 27 57
+3. Brake model 37 78
+4. Brake model 47 101
+5. Brake model 57 1001
+6. Brake model 67 156
+7. Brake model 77 157
+
+Total amount 1673$

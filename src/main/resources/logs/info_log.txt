@@ -1,0 +1,48 @@
+
+Info-logger: Received user data	28-11-2024 20:47:31
+Info-logger: Decrypting user input data...	28-11-2024 20:47:31
+Info-logger: Decrypting user input data...	28-11-2024 20:47:31
+Info-logger: Start checking login and password	28-11-2024 20:47:31
+Info-logger: End of login and password verification:true	28-11-2024 20:47:31
+Info-logger: User authorization successful	28-11-2024 20:47:31
+Info-logger: Validation path to directory	28-11-2024 20:47:36
+Info-logger: Parsing  files...	28-11-2024 20:47:36
+Info-logger: Saving to file	28-11-2024 20:47:36
+Info-logger: The file is was recorded successful	28-11-2024 20:47:36
+Info-logger: Received user data	04-12-2024 13:30:28
+Info-logger: Decrypting user input data...	04-12-2024 13:30:28
+Info-logger: Decrypting user input data...	04-12-2024 13:30:28
+Info-logger: Start checking login and password	04-12-2024 13:30:28
+Info-logger: End of login and password verification:true	04-12-2024 13:30:28
+Info-logger: User authorization successful	04-12-2024 13:30:28
+Info-logger: Validation path to directory	04-12-2024 13:30:47
+Info-logger: Parsing  files...	04-12-2024 13:30:47
+Info-logger: Saving to file	04-12-2024 13:30:47
+Info-logger: The file is was recorded successful	04-12-2024 13:30:47
+Info-logger: Received user data	04-12-2024 13:43:45
+Info-logger: Decrypting user input data...	04-12-2024 13:43:45
+Info-logger: Decrypting user input data...	04-12-2024 13:43:45
+Info-logger: Start checking login and password	04-12-2024 13:43:45
+Info-logger: End of login and password verification:true	04-12-2024 13:43:45
+Info-logger: User authorization successful	04-12-2024 13:43:45
+Info-logger: Validation path to directory	04-12-2024 13:43:47
+Info-logger: Received user data	04-12-2024 13:44:29
+Info-logger: Decrypting user input data...	04-12-2024 13:44:29
+Info-logger: Decrypting user input data...	04-12-2024 13:44:29
+Info-logger: Start checking login and password	04-12-2024 13:44:29
+Info-logger: End of login and password verification:true	04-12-2024 13:44:29
+Info-logger: User authorization successful	04-12-2024 13:44:29
+Info-logger: Validation path to directory	04-12-2024 13:44:49
+Info-logger: Parsing  files...	04-12-2024 13:44:49
+Info-logger: Saving to file	04-12-2024 13:44:49
+Info-logger: The file is was recorded successful	04-12-2024 13:44:49
+Info-logger: Received user data	04-12-2024 15:00:11
+Info-logger: Decrypting user input data...	04-12-2024 15:00:11
+Info-logger: Decrypting user input data...	04-12-2024 15:00:11
+Info-logger: Start checking login and password	04-12-2024 15:00:11
+Info-logger: End of login and password verification:true	04-12-2024 15:00:11
+Info-logger: User authorization successful	04-12-2024 15:00:11
+Info-logger: Validation path to directory	04-12-2024 15:00:21
+Info-logger: Parsing  files...	04-12-2024 15:00:21
+Info-logger: Saving to file	04-12-2024 15:00:21
+Info-logger: The file is was recorded successful	04-12-2024 15:00:21

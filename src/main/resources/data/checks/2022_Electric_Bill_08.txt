@@ -1,0 +1,8 @@
+From: WorlWide ABC Company
+Pay To: EU National Subcompany
+Check # 08
+Order # O4508
+Invoice # In4508
+Date: 15.08.2023
+
+Bill total amount EURO 199,12

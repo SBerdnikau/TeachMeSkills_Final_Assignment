@@ -1,0 +1,7 @@
+From: WorlWide ABC Company
+Pay To: EU National Subcompany
+Check # 05
+Order # 
+Invoice #
+Date: 15.05.2023
+Bill total amount EURO 300,07

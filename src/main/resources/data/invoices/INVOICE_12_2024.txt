@@ -1,0 +1,14 @@
+INVOICE
+
+East Repair
+
+Invoice Date 01/12/2023
+Due Date 26/12/2023
+
+
+1. Repair tools set 789-1 model 100
+2. Repair tools set 789-1 model 100
+
+
+
+Total amount 200$

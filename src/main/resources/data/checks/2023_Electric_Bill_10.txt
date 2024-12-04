@@ -1,0 +1,8 @@
+From: WorlWide ABC Company
+Pay To: EU National Subcompany
+Check # 10
+Order # O45010
+Invoice # In45010
+Date: 15.10.2023
+
+Bill total amount EURO 451,10

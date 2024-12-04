@@ -1,0 +1,15 @@
+INVOICE
+
+
+
+East Repair
+
+Invoice Date 19/03/2023
+Due Date 26/03/2023
+
+Bill To: Ken Braun, DC 34590
+Ship To: Ken Braun, DC 34590
+
+1. Brake model 67 1290
+
+Total amount $1290

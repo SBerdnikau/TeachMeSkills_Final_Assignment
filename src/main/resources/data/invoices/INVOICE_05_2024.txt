@@ -1,0 +1,12 @@
+INVOICE
+
+East Repair
+
+Invoice Date 15/05/2023
+Due Date 26/05/2023
+
+
+1. Repair tools set 789 model 337.78
+
+
+Total   amount 337.78$
