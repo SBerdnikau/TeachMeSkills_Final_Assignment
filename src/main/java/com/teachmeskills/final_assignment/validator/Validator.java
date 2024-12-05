@@ -82,18 +82,21 @@ public class Validator {
                Matcher checkMatcher = checkPattern.matcher(line);
                if (checkMatcher.find()) {
                     statistics.addCheck(new Check(Double.parseDouble(checkMatcher.group(1).replace(",", "."))));
+                    Check.countCheck++;
                 }
 
                Matcher invoiceMatcher = invoicePattern.matcher(line);
                LoggerService.logInfo("Checking invoice file:" + line);
                if (invoiceMatcher.find()) {
                     statistics.addInvoice(new Invoice(Double.parseDouble(invoiceMatcher.group(1))));
+                    Invoice.countInvoice++;
                }
 
                Matcher orderMatcher = orderPattern.matcher(line);
                LoggerService.logInfo("Checking order file:" + line);
                if (orderMatcher.find()) {
                     statistics.addOrder(new Order(Double.parseDouble(orderMatcher.group(1).replace(",", ""))));
+                    Order.countOrder++;
                }
            }
 

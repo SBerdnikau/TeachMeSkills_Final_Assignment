@@ -33,19 +33,22 @@ public class S3Uploader {
 
        AwsCredentials credentials = AwsBasicCredentials.create(accessKey, secretKey);
 
-       S3Client s3Client = S3Client
+        PutObjectResponse response;
+        try (S3Client s3Client = S3Client
                 .builder()
                 .region(Region.of(regionName))
                 .credentialsProvider(StaticCredentialsProvider.create(credentials))
-                .build();
+                .build()) {
 
-        PutObjectRequest request = PutObjectRequest.builder()
-                .bucket(bucketName)
-                .key(key)
-                .build();
+            PutObjectRequest request = PutObjectRequest.builder()
+                    .bucket(bucketName)
+                    .key(key)
+                    .build();
 
-        PutObjectResponse response = s3Client.putObject(request, Paths.get(file.toURI())  );
-
-        System.out.println(Constants.MESSAGE_SUCCESS_UPLOAD_TO_AWS + response.eTag());
+            response = s3Client.putObject(request, Paths.get(file.toURI()));
+            System.out.println(Constants.MESSAGE_SUCCESS_UPLOAD_TO_AWS + response.eTag());
+        }catch (Exception e){
+            System.out.println("General exception connection or uploaded" + e.getMessage());
+        }
     }
 }

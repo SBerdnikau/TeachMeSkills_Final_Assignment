@@ -30,21 +30,26 @@ public class Statistic {
     }
 
     public void printStatistics() {
-        StringBuilder statistic = new StringBuilder();
-        statistic.append(String.format(Constants.HEAD_STATISTIC));
-        statistic.append(String.format("\nTotal Check Amount:\t\t%.2f", totalCheckAmount));
-        statistic.append(String.format("\nTotal Invoice Amount:\t%.2f",  totalInvoiceAmount));
-        statistic.append(String.format("\nTotal Order Amount:\t\t%.2f\n", totalOrderAmount));
-        statistic.append(String.format(Constants.DELIMITER));
+        String statistic = String.format(Constants.HEAD_STATISTIC) +
+                String.format("\nType\t\t\t\t\t|\tTotal amount\t|\tTotal count files\n") +
+                String.format(Constants.DELIMITER_2) +
+                String.format("\nTotal Check Amount:\t\t|\t%.2f\t\t|\t%d", totalCheckAmount, Check.countCheck) +
+                String.format("\nTotal Invoice Amount:\t|\t%.2f\t\t\t|\t%d", totalInvoiceAmount, Invoice.countInvoice) +
+                String.format("\nTotal Order Amount:\t\t|\t%.2f\t\t\t|\t%d\n", totalOrderAmount, Order.countOrder) +
+                String.format(Constants.DELIMITER_1);
         System.out.println(statistic);
     }
 
     public void writeStatistic(String fileName) throws WrongStatisticException {
         LoggerService.logInfo("Saving to file");
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(fileName))) {
-            writer.write(String.format("Total Check Amount:\t\t%.2f\n", totalCheckAmount));
-            writer.write(String.format("Total Invoice Amount:\t%.2f\n",  totalInvoiceAmount));
-            writer.write(String.format("Total Order Amount:\t\t%.2f\n", totalOrderAmount));
+             writer.write(String.format(Constants.HEAD_STATISTIC) +
+                    String.format("\nType\t\t\t\t\t|\tTotal amount\t|\tTotal count files\n") +
+                    String.format(Constants.DELIMITER_2) +
+                    String.format("\nTotal Check Amount:\t\t|\t%.2f\t\t|\t%d", totalCheckAmount, Check.countCheck) +
+                    String.format("\nTotal Invoice Amount:\t|\t%.2f\t\t\t|\t%d", totalInvoiceAmount, Invoice.countInvoice) +
+                    String.format("\nTotal Order Amount:\t\t|\t%.2f\t\t\t|\t%d\n", totalOrderAmount, Order.countOrder) +
+                    String.format(Constants.DELIMITER_1));
             writer.newLine();
             LoggerService.logInfo("The file is was recorded successful");
         } catch (IOException e) {

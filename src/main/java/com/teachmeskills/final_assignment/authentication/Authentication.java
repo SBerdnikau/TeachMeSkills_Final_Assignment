@@ -31,11 +31,11 @@ public class Authentication {
 
         if(result) {
             LoggerService.logInfo(Constants.MESSAGE_AUTH_SUCCESSFUL);
-            System.out.println(Constants.DELIMITER);
+            System.out.println(Constants.DELIMITER_1);
             return new SessionManager();
         }else {
             LoggerService.logError(Constants.MESSAGE_AUTH_FAILED);
-            System.out.println(Constants.DELIMITER);
+            System.out.println(Constants.DELIMITER_1);
             throw new WrongAuthException(Constants.MESSAGE_INCORRECT_AUTH, Constants.ERROR_CODE_AUTH);
         }
     }

@@ -2,7 +2,9 @@ package com.teachmeskills.final_assignment.model.check;
 
 public class Check {
 
-    private double totalAmount;
+    public static int countCheck;
+
+    private final double totalAmount;
 
     public Check(double totalAmount) {
         this.totalAmount = totalAmount;
@@ -11,4 +13,5 @@ public class Check {
     public double getTotalAmount() {
         return totalAmount;
     }
+
 }

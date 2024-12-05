@@ -36,7 +36,11 @@ public interface Constants {
     String MESSAGE_INCORRECT_AUTH =  "Incorrect login or password entered ";
     String MESSAGE_PARSING = "Parsing  files...";
     String MESSAGE_VALIDATION_DIR = "Validation path to directory";
+    String MESSAGE_CODE_ERROR = " Error code:  ";
+    String MESSAGE_INVALID_CODE_2FA =  "Invalid 2FA Code. Try again...";
+    String MESSAGE_ENTER_2FA = "Please enter 2fA code here: ";
 
-    String DELIMITER = "========================================================";
-    String HEAD_STATISTIC = "====================STATISTIC===========================";
+    String DELIMITER_1 = "===================================================================";
+    String DELIMITER_2 = "-------------------------------------------------------------------";
+    String HEAD_STATISTIC = "====================FINANCIAL STATISTICS===========================";
 }

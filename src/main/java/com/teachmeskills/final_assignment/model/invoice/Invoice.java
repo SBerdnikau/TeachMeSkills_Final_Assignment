@@ -2,7 +2,9 @@ package com.teachmeskills.final_assignment.model.invoice;
 
 public class Invoice {
 
-    private double totalAmount;
+    public static int countInvoice;
+
+    private final double totalAmount;
 
     public Invoice(double totalAmount) {
         this.totalAmount = totalAmount;

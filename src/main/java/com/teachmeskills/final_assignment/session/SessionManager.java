@@ -3,6 +3,7 @@ package com.teachmeskills.final_assignment.session;
 import com.teachmeskills.final_assignment.exception.WrongFileException;
 import com.teachmeskills.final_assignment.log.LoggerService;
 import com.teachmeskills.final_assignment.properties.PropertiesManager;
+import com.teachmeskills.final_assignment.utils.Constants;
 
 import java.util.Calendar;
 import java.util.Date;
@@ -54,7 +55,7 @@ public class SessionManager {
             calendar.add(Calendar.MINUTE, sessionDuration);
             this.expDate = calendar.getTime();
         } catch (WrongFileException e) {
-            LoggerService.logError("Error reading property file: " + e.getMessage() + " Error code:  " + e.getCodeError());
+            LoggerService.logError("Error reading property file: " + e.getMessage() + Constants.MESSAGE_CODE_ERROR + e.getCodeError());
         }
     }
 }

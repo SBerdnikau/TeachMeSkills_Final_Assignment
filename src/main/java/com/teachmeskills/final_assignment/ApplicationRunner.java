@@ -14,7 +14,6 @@ import java.util.Scanner;
 
 public class ApplicationRunner {
     public static void main(String[] args)  {
-        // src/main/resources/data
         String directoryPath;
         String inputLogin;
         String inputPass;
@@ -27,20 +26,20 @@ public class ApplicationRunner {
             TwoFactorAuthentication.createQRCode(barCodeUrl, Constants.PATH_TO_QRCODE, 400, 400);
 
             while (true){
-                System.out.print("Please enter 2fA code here: ");
+                System.out.print(Constants.MESSAGE_ENTER_2FA);
                 String code = scanner.nextLine();
                 if (code.equals(TwoFactorAuthentication.getTOTPCode(secretKey))) {
                     System.out.println("Logged in successfully");
                     break;
                 } else {
-                    System.out.println("Invalid 2FA Code. Try again...");
+                    System.out.println(Constants.MESSAGE_INVALID_CODE_2FA);
                 }
             }
 
             while (true) {
-                System.out.print("Insert login: ");//admin
+                System.out.print("Insert login: ");
                 inputLogin = scanner.nextLine().trim();
-                System.out.print("Insert password: ");//TMC32Java
+                System.out.print("Insert password: ");
                 inputPass = scanner.nextLine().trim();
                 if (inputLogin.isEmpty() || inputPass.isEmpty()) {
                     LoggerService.logError("Login or password must not be empty. Try again...");
@@ -72,13 +71,13 @@ public class ApplicationRunner {
                             parser.validationFile(directoryPath, sessionClient1);
                             S3Uploader.s3();//AWS Uploader service
                         } catch (WrongFileException e) {
-                            LoggerService.logError("File is not reading: " + e.getMessage() + " Error code: " + e.getCodeError());
+                            LoggerService.logError("File is not reading: " + e.getMessage() + Constants.MESSAGE_CODE_ERROR + e.getCodeError());
                         }
                     } else {
-                        LoggerService.logInfo("Session is not valid");
+                        LoggerService.logInfo(Constants.MESSAGE_SESSION_NOT_VALID);
                     }
                 }catch (WrongAuthException e){
-                    LoggerService.logError("Authorization error: " + e.getMessage() + " Error code: " + e.getErrorCode());
+                    LoggerService.logError("Authorization error: " + e.getMessage() + Constants.MESSAGE_CODE_ERROR + e.getErrorCode());
                 }
         }catch (Exception e){
             LoggerService.logError("General reading error: " + e.getMessage());
