@@ -28,7 +28,7 @@ public class Validator {
 
         if (session.isSessionValid()){
 
-            LoggerService.logInfo("Validation path to directory");
+            LoggerService.logInfo(Constants.MESSAGE_VALIDATION_DIR);
 
             File rootDir = new File(pathDirectory);
             if (!rootDir.exists() || !rootDir.isDirectory()) {
@@ -38,7 +38,7 @@ public class Validator {
 
             Statistic statistics = new Statistic();
 
-            LoggerService.logInfo("Parsing  files...");
+            LoggerService.logInfo(Constants.MESSAGE_PARSING);
             String documentExtension = PropertiesManager.loadProperties().getProperty("document.extension");
             String documentYear = PropertiesManager.loadProperties().getProperty("document.year");
 
@@ -55,7 +55,7 @@ public class Validator {
                         });
             } catch (IOException e) {
                 LoggerService.logError("The directory is not readable: " + e.getMessage());
-                throw new WrongFileException("File not found ", Constants.ERROR_CODE_FILE);
+                throw new WrongFileException(Constants.MESSAGE_FILE_NOT_FOUND, Constants.ERROR_CODE_FILE);
             }
 
             statistics.printStatistics();
@@ -66,7 +66,7 @@ public class Validator {
                 LoggerService.logError("Wrong writing statistics file\t" + e.getMessage() + "\tError code:\t" + e.getCodeError());
             }
         }else {
-            LoggerService.logInfo("Session is not valid");
+            LoggerService.logInfo(Constants.MESSAGE_SESSION_NOT_VALID);
         }
     }
 
@@ -78,17 +78,20 @@ public class Validator {
            Pattern orderPattern = Pattern.compile(Constants.ORDER_REGEX);
 
            for (String line : lines){
+               LoggerService.logInfo("Checking check file:" + line);
                Matcher checkMatcher = checkPattern.matcher(line);
                if (checkMatcher.find()) {
                     statistics.addCheck(new Check(Double.parseDouble(checkMatcher.group(1).replace(",", "."))));
                 }
 
                Matcher invoiceMatcher = invoicePattern.matcher(line);
+               LoggerService.logInfo("Checking invoice file:" + line);
                if (invoiceMatcher.find()) {
                     statistics.addInvoice(new Invoice(Double.parseDouble(invoiceMatcher.group(1))));
                }
 
                Matcher orderMatcher = orderPattern.matcher(line);
+               LoggerService.logInfo("Checking order file:" + line);
                if (orderMatcher.find()) {
                     statistics.addOrder(new Order(Double.parseDouble(orderMatcher.group(1).replace(",", ""))));
                }

@@ -15,6 +15,9 @@ import software.amazon.awssdk.services.s3.model.PutObjectResponse;
 import java.io.File;
 import java.nio.file.Paths;
 
+/**
+ *  class for uploading data to AWS S3 server
+ */
 public class S3Uploader {
 
     public static void s3() throws WrongFileException {
@@ -43,6 +46,6 @@ public class S3Uploader {
 
         PutObjectResponse response = s3Client.putObject(request, Paths.get(file.toURI())  );
 
-        System.out.println(Constants.STATUS_SUCCESS_UPLOAD_TO_AWS + response.eTag());
+        System.out.println(Constants.MESSAGE_SUCCESS_UPLOAD_TO_AWS + response.eTag());
     }
 }

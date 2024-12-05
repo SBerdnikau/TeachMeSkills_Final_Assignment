@@ -31,11 +31,11 @@ public class Statistic {
 
     public void printStatistics() {
         StringBuilder statistic = new StringBuilder();
-        statistic.append(String.format(Constants.MESSAGE_HEAD_STATISTIC));
+        statistic.append(String.format(Constants.HEAD_STATISTIC));
         statistic.append(String.format("\nTotal Check Amount:\t\t%.2f", totalCheckAmount));
         statistic.append(String.format("\nTotal Invoice Amount:\t%.2f",  totalInvoiceAmount));
         statistic.append(String.format("\nTotal Order Amount:\t\t%.2f\n", totalOrderAmount));
-        statistic.append(String.format(Constants.LINE_DELIMITER));
+        statistic.append(String.format(Constants.DELIMITER));
         System.out.println(statistic);
     }
 

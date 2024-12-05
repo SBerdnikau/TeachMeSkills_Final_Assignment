@@ -12,28 +12,31 @@ import com.teachmeskills.final_assignment.utils.Constants;
  */
 public class Authentication {
 
+    /**
+     * @param login - insert user login
+     * @param password - insert user password
+     * @return if true, object SessionManager or return exception
+     * @throws WrongAuthException - thrown when authorization fails
+     */
     public SessionManager auth(String login, String password) throws WrongAuthException {
 
         MockStorage storageLikeDB = new MockStorage();
-        LoggerService.logInfo("Received user data");
+        LoggerService.logInfo(Constants.MESSAGE_RECEIVED_USER_DATA);
 
         String loginFromDB = EncryptService.decrypt(storageLikeDB.getLogin());
         String passwordFromDB = EncryptService.decrypt(storageLikeDB.getPassword());
 
-        LoggerService.logInfo("Start checking login and password");
-
+        LoggerService.logInfo(Constants.MESSAGE_CHECKING);
         boolean result = login.toLowerCase().equals(loginFromDB) && password.equals(passwordFromDB);
 
-        if(login.toLowerCase().equals(loginFromDB)  && password.equals(passwordFromDB)) {
-            LoggerService.logInfo("End of login and password verification:" + result);
-            LoggerService.logInfo("User authorization successful");
-            System.out.println(Constants.LINE_DELIMITER);
+        if(result) {
+            LoggerService.logInfo(Constants.MESSAGE_AUTH_SUCCESSFUL);
+            System.out.println(Constants.DELIMITER);
             return new SessionManager();
         }else {
-            LoggerService.logInfo("End of login and password verification: " + result);
-            LoggerService.logError("User authorization failed");
-            System.out.println(Constants.LINE_DELIMITER);
-            throw new WrongAuthException("Incorrect login or password entered ", Constants.ERROR_CODE_AUTH);
+            LoggerService.logError(Constants.MESSAGE_AUTH_FAILED);
+            System.out.println(Constants.DELIMITER);
+            throw new WrongAuthException(Constants.MESSAGE_INCORRECT_AUTH, Constants.ERROR_CODE_AUTH);
         }
     }
 }

@@ -21,8 +21,8 @@ public class PropertiesManager {
             InputStream inputStream = Files.newInputStream(Paths.get(Constants.PATH_TO_PROPERTIES_FILE));
             properties.load(inputStream);
         } catch (IOException e) {
-            LoggerService.logError("File properties not found: "  + e.getMessage());
-            throw new WrongFileException("File properties not found", Constants.ERROR_CODE_FILE);
+            LoggerService.logError(Constants.MESSAGE_FILE_PROPERTIES_NOT_FOUND + e.getMessage());
+            throw new WrongFileException(Constants.MESSAGE_FILE_PROPERTIES_NOT_FOUND, Constants.ERROR_CODE_FILE);
         }
 
         return properties;

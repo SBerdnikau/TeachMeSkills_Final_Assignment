@@ -46,3 +46,1341 @@ Info-logger: Validation path to directory	04-12-2024 15:00:21
 Info-logger: Parsing  files...	04-12-2024 15:00:21
 Info-logger: Saving to file	04-12-2024 15:00:21
 Info-logger: The file is was recorded successful	04-12-2024 15:00:21
+Info-logger: Received user data	05-12-2024 16:30:58
+Info-logger: Decrypting user input data...	05-12-2024 16:30:58
+Info-logger: Decrypting user input data...	05-12-2024 16:30:58
+Info-logger: Start checking login and password	05-12-2024 16:30:58
+Info-logger: User authorization successful	05-12-2024 16:30:58
+Info-logger: Validation path to directory	05-12-2024 16:31:26
+Info-logger: Parsing  files...	05-12-2024 16:31:26
+Info-logger: Checking check file:From: WorlWide ABC Company	05-12-2024 16:31:26
+Info-logger: Checking invoice file:From: WorlWide ABC Company	05-12-2024 16:31:26
+Info-logger: Checking order file:From: WorlWide ABC Company	05-12-2024 16:31:26
+Info-logger: Checking check file:Pay To: EU National Subcompany	05-12-2024 16:31:26
+Info-logger: Checking invoice file:Pay To: EU National Subcompany	05-12-2024 16:31:26
+Info-logger: Checking order file:Pay To: EU National Subcompany	05-12-2024 16:31:26
+Info-logger: Checking check file:Check # 01	05-12-2024 16:31:26
+Info-logger: Checking invoice file:Check # 01	05-12-2024 16:31:26
+Info-logger: Checking order file:Check # 01	05-12-2024 16:31:26
+Info-logger: Checking check file:Order # 	05-12-2024 16:31:26
+Info-logger: Checking invoice file:Order # 	05-12-2024 16:31:26
+Info-logger: Checking order file:Order # 	05-12-2024 16:31:26
+Info-logger: Checking check file:Invoice #	05-12-2024 16:31:26
+Info-logger: Checking invoice file:Invoice #	05-12-2024 16:31:26
+Info-logger: Checking order file:Invoice #	05-12-2024 16:31:26
+Info-logger: Checking check file:Date: 15.01.2023	05-12-2024 16:31:26
+Info-logger: Checking invoice file:Date: 15.01.2023	05-12-2024 16:31:26
+Info-logger: Checking order file:Date: 15.01.2023	05-12-2024 16:31:26
+Info-logger: Checking check file:	05-12-2024 16:31:26
+Info-logger: Checking invoice file:	05-12-2024 16:31:26
+Info-logger: Checking order file:	05-12-2024 16:31:26
+Info-logger: Checking check file:	05-12-2024 16:31:26
+Info-logger: Checking invoice file:	05-12-2024 16:31:26
+Info-logger: Checking order file:	05-12-2024 16:31:26
+Info-logger: Checking check file:Bill total amount EURO 102,78	05-12-2024 16:31:26
+Info-logger: Checking invoice file:Bill total amount EURO 102,78	05-12-2024 16:31:26
+Info-logger: Checking order file:Bill total amount EURO 102,78	05-12-2024 16:31:26
+Info-logger: Checking check file:From: WorlWide ABC Company	05-12-2024 16:31:26
+Info-logger: Checking invoice file:From: WorlWide ABC Company	05-12-2024 16:31:26
+Info-logger: Checking order file:From: WorlWide ABC Company	05-12-2024 16:31:26
+Info-logger: Checking check file:Pay To: EU National Subcompany	05-12-2024 16:31:26
+Info-logger: Checking invoice file:Pay To: EU National Subcompany	05-12-2024 16:31:26
+Info-logger: Checking order file:Pay To: EU National Subcompany	05-12-2024 16:31:26
+Info-logger: Checking check file:Check # 02	05-12-2024 16:31:26
+Info-logger: Checking invoice file:Check # 02	05-12-2024 16:31:26
+Info-logger: Checking order file:Check # 02	05-12-2024 16:31:26
+Info-logger: Checking check file:Order # 	05-12-2024 16:31:26
+Info-logger: Checking invoice file:Order # 	05-12-2024 16:31:26
+Info-logger: Checking order file:Order # 	05-12-2024 16:31:26
+Info-logger: Checking check file:Invoice #	05-12-2024 16:31:26
+Info-logger: Checking invoice file:Invoice #	05-12-2024 16:31:26
+Info-logger: Checking order file:Invoice #	05-12-2024 16:31:26
+Info-logger: Checking check file:Date: 15.02.2023	05-12-2024 16:31:26
+Info-logger: Checking invoice file:Date: 15.02.2023	05-12-2024 16:31:26
+Info-logger: Checking order file:Date: 15.02.2023	05-12-2024 16:31:26
+Info-logger: Checking check file:Bill total amount EURO 15,00	05-12-2024 16:31:26
+Info-logger: Checking invoice file:Bill total amount EURO 15,00	05-12-2024 16:31:26
+Info-logger: Checking order file:Bill total amount EURO 15,00	05-12-2024 16:31:26
+Info-logger: Checking check file:From: WorlWide ABC Company	05-12-2024 16:31:26
+Info-logger: Checking invoice file:From: WorlWide ABC Company	05-12-2024 16:31:26
+Info-logger: Checking order file:From: WorlWide ABC Company	05-12-2024 16:31:26
+Info-logger: Checking check file:Pay To: EU National Subcompany	05-12-2024 16:31:26
+Info-logger: Checking invoice file:Pay To: EU National Subcompany	05-12-2024 16:31:26
+Info-logger: Checking order file:Pay To: EU National Subcompany	05-12-2024 16:31:26
+Info-logger: Checking check file:Check # 03	05-12-2024 16:31:26
+Info-logger: Checking invoice file:Check # 03	05-12-2024 16:31:26
+Info-logger: Checking order file:Check # 03	05-12-2024 16:31:26
+Info-logger: Checking check file:Order # 	05-12-2024 16:31:26
+Info-logger: Checking invoice file:Order # 	05-12-2024 16:31:26
+Info-logger: Checking order file:Order # 	05-12-2024 16:31:26
+Info-logger: Checking check file:Invoice #	05-12-2024 16:31:26
+Info-logger: Checking invoice file:Invoice #	05-12-2024 16:31:26
+Info-logger: Checking order file:Invoice #	05-12-2024 16:31:26
+Info-logger: Checking check file:Date: 15.03.2023	05-12-2024 16:31:26
+Info-logger: Checking invoice file:Date: 15.03.2023	05-12-2024 16:31:26
+Info-logger: Checking order file:Date: 15.03.2023	05-12-2024 16:31:26
+Info-logger: Checking check file:	05-12-2024 16:31:26
+Info-logger: Checking invoice file:	05-12-2024 16:31:26
+Info-logger: Checking order file:	05-12-2024 16:31:26
+Info-logger: Checking check file:Bill total amount EURO 13415,00	05-12-2024 16:31:26
+Info-logger: Checking invoice file:Bill total amount EURO 13415,00	05-12-2024 16:31:26
+Info-logger: Checking order file:Bill total amount EURO 13415,00	05-12-2024 16:31:26
+Info-logger: Checking check file:From: WorlWide ABC Company	05-12-2024 16:31:26
+Info-logger: Checking invoice file:From: WorlWide ABC Company	05-12-2024 16:31:26
+Info-logger: Checking order file:From: WorlWide ABC Company	05-12-2024 16:31:26
+Info-logger: Checking check file:Pay To: EU National Subcompany	05-12-2024 16:31:26
+Info-logger: Checking invoice file:Pay To: EU National Subcompany	05-12-2024 16:31:26
+Info-logger: Checking order file:Pay To: EU National Subcompany	05-12-2024 16:31:26
+Info-logger: Checking check file:Check # 04	05-12-2024 16:31:26
+Info-logger: Checking invoice file:Check # 04	05-12-2024 16:31:26
+Info-logger: Checking order file:Check # 04	05-12-2024 16:31:26
+Info-logger: Checking check file:Order # 	05-12-2024 16:31:26
+Info-logger: Checking invoice file:Order # 	05-12-2024 16:31:26
+Info-logger: Checking order file:Order # 	05-12-2024 16:31:26
+Info-logger: Checking check file:Invoice #	05-12-2024 16:31:26
+Info-logger: Checking invoice file:Invoice #	05-12-2024 16:31:26
+Info-logger: Checking order file:Invoice #	05-12-2024 16:31:26
+Info-logger: Checking check file:Date: 15.04.2023	05-12-2024 16:31:26
+Info-logger: Checking invoice file:Date: 15.04.2023	05-12-2024 16:31:26
+Info-logger: Checking order file:Date: 15.04.2023	05-12-2024 16:31:26
+Info-logger: Checking check file:	05-12-2024 16:31:26
+Info-logger: Checking invoice file:	05-12-2024 16:31:26
+Info-logger: Checking order file:	05-12-2024 16:31:26
+Info-logger: Checking check file:	05-12-2024 16:31:26
+Info-logger: Checking invoice file:	05-12-2024 16:31:26
+Info-logger: Checking order file:	05-12-2024 16:31:26
+Info-logger: Checking check file:	05-12-2024 16:31:26
+Info-logger: Checking invoice file:	05-12-2024 16:31:26
+Info-logger: Checking order file:	05-12-2024 16:31:26
+Info-logger: Checking check file:	05-12-2024 16:31:26
+Info-logger: Checking invoice file:	05-12-2024 16:31:26
+Info-logger: Checking order file:	05-12-2024 16:31:26
+Info-logger: Checking check file:	05-12-2024 16:31:26
+Info-logger: Checking invoice file:	05-12-2024 16:31:26
+Info-logger: Checking order file:	05-12-2024 16:31:26
+Info-logger: Checking check file:Bill total amount EURO 456,67	05-12-2024 16:31:26
+Info-logger: Checking invoice file:Bill total amount EURO 456,67	05-12-2024 16:31:26
+Info-logger: Checking order file:Bill total amount EURO 456,67	05-12-2024 16:31:26
+Info-logger: Checking check file:From: WorlWide ABC Company	05-12-2024 16:31:26
+Info-logger: Checking invoice file:From: WorlWide ABC Company	05-12-2024 16:31:26
+Info-logger: Checking order file:From: WorlWide ABC Company	05-12-2024 16:31:26
+Info-logger: Checking check file:Pay To: EU National Subcompany	05-12-2024 16:31:26
+Info-logger: Checking invoice file:Pay To: EU National Subcompany	05-12-2024 16:31:26
+Info-logger: Checking order file:Pay To: EU National Subcompany	05-12-2024 16:31:26
+Info-logger: Checking check file:Check # 05	05-12-2024 16:31:26
+Info-logger: Checking invoice file:Check # 05	05-12-2024 16:31:26
+Info-logger: Checking order file:Check # 05	05-12-2024 16:31:26
+Info-logger: Checking check file:Order # 	05-12-2024 16:31:26
+Info-logger: Checking invoice file:Order # 	05-12-2024 16:31:26
+Info-logger: Checking order file:Order # 	05-12-2024 16:31:26
+Info-logger: Checking check file:Invoice #	05-12-2024 16:31:26
+Info-logger: Checking invoice file:Invoice #	05-12-2024 16:31:26
+Info-logger: Checking order file:Invoice #	05-12-2024 16:31:26
+Info-logger: Checking check file:Date: 15.05.2023	05-12-2024 16:31:26
+Info-logger: Checking invoice file:Date: 15.05.2023	05-12-2024 16:31:26
+Info-logger: Checking order file:Date: 15.05.2023	05-12-2024 16:31:26
+Info-logger: Checking check file:Bill total amount EURO 300,07	05-12-2024 16:31:26
+Info-logger: Checking invoice file:Bill total amount EURO 300,07	05-12-2024 16:31:26
+Info-logger: Checking order file:Bill total amount EURO 300,07	05-12-2024 16:31:26
+Info-logger: Checking check file:From: WorlWide ABC Company	05-12-2024 16:31:26
+Info-logger: Checking invoice file:From: WorlWide ABC Company	05-12-2024 16:31:26
+Info-logger: Checking order file:From: WorlWide ABC Company	05-12-2024 16:31:26
+Info-logger: Checking check file:Pay To: EU National Subcompany	05-12-2024 16:31:26
+Info-logger: Checking invoice file:Pay To: EU National Subcompany	05-12-2024 16:31:26
+Info-logger: Checking order file:Pay To: EU National Subcompany	05-12-2024 16:31:26
+Info-logger: Checking check file:Check # 06	05-12-2024 16:31:26
+Info-logger: Checking invoice file:Check # 06	05-12-2024 16:31:26
+Info-logger: Checking order file:Check # 06	05-12-2024 16:31:26
+Info-logger: Checking check file:Order # 	05-12-2024 16:31:26
+Info-logger: Checking invoice file:Order # 	05-12-2024 16:31:26
+Info-logger: Checking order file:Order # 	05-12-2024 16:31:26
+Info-logger: Checking check file:Invoice #	05-12-2024 16:31:26
+Info-logger: Checking invoice file:Invoice #	05-12-2024 16:31:26
+Info-logger: Checking order file:Invoice #	05-12-2024 16:31:26
+Info-logger: Checking check file:Date: 15.06.2023	05-12-2024 16:31:26
+Info-logger: Checking invoice file:Date: 15.06.2023	05-12-2024 16:31:26
+Info-logger: Checking order file:Date: 15.06.2023	05-12-2024 16:31:26
+Info-logger: Checking check file:	05-12-2024 16:31:26
+Info-logger: Checking invoice file:	05-12-2024 16:31:26
+Info-logger: Checking order file:	05-12-2024 16:31:26
+Info-logger: Checking check file:	05-12-2024 16:31:26
+Info-logger: Checking invoice file:	05-12-2024 16:31:26
+Info-logger: Checking order file:	05-12-2024 16:31:26
+Info-logger: Checking check file:	05-12-2024 16:31:26
+Info-logger: Checking invoice file:	05-12-2024 16:31:26
+Info-logger: Checking order file:	05-12-2024 16:31:26
+Info-logger: Checking check file:Bill total amount EURO 299,01	05-12-2024 16:31:26
+Info-logger: Checking invoice file:Bill total amount EURO 299,01	05-12-2024 16:31:26
+Info-logger: Checking order file:Bill total amount EURO 299,01	05-12-2024 16:31:26
+Info-logger: Checking check file:From: WorlWide ABC Company	05-12-2024 16:31:26
+Info-logger: Checking invoice file:From: WorlWide ABC Company	05-12-2024 16:31:26
+Info-logger: Checking order file:From: WorlWide ABC Company	05-12-2024 16:31:26
+Info-logger: Checking check file:Pay To: EU National Subcompany	05-12-2024 16:31:26
+Info-logger: Checking invoice file:Pay To: EU National Subcompany	05-12-2024 16:31:26
+Info-logger: Checking order file:Pay To: EU National Subcompany	05-12-2024 16:31:26
+Info-logger: Checking check file:Check # 07	05-12-2024 16:31:26
+Info-logger: Checking invoice file:Check # 07	05-12-2024 16:31:26
+Info-logger: Checking order file:Check # 07	05-12-2024 16:31:26
+Info-logger: Checking check file:Order # O4507	05-12-2024 16:31:26
+Info-logger: Checking invoice file:Order # O4507	05-12-2024 16:31:26
+Info-logger: Checking order file:Order # O4507	05-12-2024 16:31:26
+Info-logger: Checking check file:Invoice # In4507	05-12-2024 16:31:26
+Info-logger: Checking invoice file:Invoice # In4507	05-12-2024 16:31:26
+Info-logger: Checking order file:Invoice # In4507	05-12-2024 16:31:26
+Info-logger: Checking check file:Date: 15.07.2023	05-12-2024 16:31:26
+Info-logger: Checking invoice file:Date: 15.07.2023	05-12-2024 16:31:26
+Info-logger: Checking order file:Date: 15.07.2023	05-12-2024 16:31:26
+Info-logger: Checking check file:	05-12-2024 16:31:26
+Info-logger: Checking invoice file:	05-12-2024 16:31:26
+Info-logger: Checking order file:	05-12-2024 16:31:26
+Info-logger: Checking check file:Bill total amount EURO 299,01	05-12-2024 16:31:26
+Info-logger: Checking invoice file:Bill total amount EURO 299,01	05-12-2024 16:31:26
+Info-logger: Checking order file:Bill total amount EURO 299,01	05-12-2024 16:31:26
+Info-logger: Checking check file:From: WorlWide ABC Company	05-12-2024 16:31:27
+Info-logger: Checking invoice file:From: WorlWide ABC Company	05-12-2024 16:31:27
+Info-logger: Checking order file:From: WorlWide ABC Company	05-12-2024 16:31:27
+Info-logger: Checking check file:Pay To: EU National Subcompany	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Pay To: EU National Subcompany	05-12-2024 16:31:27
+Info-logger: Checking order file:Pay To: EU National Subcompany	05-12-2024 16:31:27
+Info-logger: Checking check file:Check # 08	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Check # 08	05-12-2024 16:31:27
+Info-logger: Checking order file:Check # 08	05-12-2024 16:31:27
+Info-logger: Checking check file:Order # O4508	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Order # O4508	05-12-2024 16:31:27
+Info-logger: Checking order file:Order # O4508	05-12-2024 16:31:27
+Info-logger: Checking check file:Invoice # In4508	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Invoice # In4508	05-12-2024 16:31:27
+Info-logger: Checking order file:Invoice # In4508	05-12-2024 16:31:27
+Info-logger: Checking check file:Date: 15.08.2023	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Date: 15.08.2023	05-12-2024 16:31:27
+Info-logger: Checking order file:Date: 15.08.2023	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:Bill total amount EURO 199,12	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Bill total amount EURO 199,12	05-12-2024 16:31:27
+Info-logger: Checking order file:Bill total amount EURO 199,12	05-12-2024 16:31:27
+Info-logger: Checking check file:From: WorlWide ABC Company	05-12-2024 16:31:27
+Info-logger: Checking invoice file:From: WorlWide ABC Company	05-12-2024 16:31:27
+Info-logger: Checking order file:From: WorlWide ABC Company	05-12-2024 16:31:27
+Info-logger: Checking check file:Pay To: EU National Subcompany	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Pay To: EU National Subcompany	05-12-2024 16:31:27
+Info-logger: Checking order file:Pay To: EU National Subcompany	05-12-2024 16:31:27
+Info-logger: Checking check file:Check # 09	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Check # 09	05-12-2024 16:31:27
+Info-logger: Checking order file:Check # 09	05-12-2024 16:31:27
+Info-logger: Checking check file:Order # O4509	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Order # O4509	05-12-2024 16:31:27
+Info-logger: Checking order file:Order # O4509	05-12-2024 16:31:27
+Info-logger: Checking check file:Invoice # In4509	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Invoice # In4509	05-12-2024 16:31:27
+Info-logger: Checking order file:Invoice # In4509	05-12-2024 16:31:27
+Info-logger: Checking check file:Date: 15.09.2023	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Date: 15.09.2023	05-12-2024 16:31:27
+Info-logger: Checking order file:Date: 15.09.2023	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:Bill total amount EURO 99,00	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Bill total amount EURO 99,00	05-12-2024 16:31:27
+Info-logger: Checking order file:Bill total amount EURO 99,00	05-12-2024 16:31:27
+Info-logger: Checking check file:From: WorlWide ABC Company	05-12-2024 16:31:27
+Info-logger: Checking invoice file:From: WorlWide ABC Company	05-12-2024 16:31:27
+Info-logger: Checking order file:From: WorlWide ABC Company	05-12-2024 16:31:27
+Info-logger: Checking check file:Pay To: EU National Subcompany	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Pay To: EU National Subcompany	05-12-2024 16:31:27
+Info-logger: Checking order file:Pay To: EU National Subcompany	05-12-2024 16:31:27
+Info-logger: Checking check file:Check # 10	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Check # 10	05-12-2024 16:31:27
+Info-logger: Checking order file:Check # 10	05-12-2024 16:31:27
+Info-logger: Checking check file:Order # O45010	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Order # O45010	05-12-2024 16:31:27
+Info-logger: Checking order file:Order # O45010	05-12-2024 16:31:27
+Info-logger: Checking check file:Invoice # In45010	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Invoice # In45010	05-12-2024 16:31:27
+Info-logger: Checking order file:Invoice # In45010	05-12-2024 16:31:27
+Info-logger: Checking check file:Date: 15.10.2023	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Date: 15.10.2023	05-12-2024 16:31:27
+Info-logger: Checking order file:Date: 15.10.2023	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:Bill total amount EURO 451,10	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Bill total amount EURO 451,10	05-12-2024 16:31:27
+Info-logger: Checking order file:Bill total amount EURO 451,10	05-12-2024 16:31:27
+Info-logger: Checking check file:From: WorlWide ABC Company	05-12-2024 16:31:27
+Info-logger: Checking invoice file:From: WorlWide ABC Company	05-12-2024 16:31:27
+Info-logger: Checking order file:From: WorlWide ABC Company	05-12-2024 16:31:27
+Info-logger: Checking check file:Pay To: EU National Subcompany	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Pay To: EU National Subcompany	05-12-2024 16:31:27
+Info-logger: Checking order file:Pay To: EU National Subcompany	05-12-2024 16:31:27
+Info-logger: Checking check file:Check # 11	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Check # 11	05-12-2024 16:31:27
+Info-logger: Checking order file:Check # 11	05-12-2024 16:31:27
+Info-logger: Checking check file:Order # O45011	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Order # O45011	05-12-2024 16:31:27
+Info-logger: Checking order file:Order # O45011	05-12-2024 16:31:27
+Info-logger: Checking check file:Invoice # In45011	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Invoice # In45011	05-12-2024 16:31:27
+Info-logger: Checking order file:Invoice # In45011	05-12-2024 16:31:27
+Info-logger: Checking check file:Date: 15.11.2023	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Date: 15.11.2023	05-12-2024 16:31:27
+Info-logger: Checking order file:Date: 15.11.2023	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:Bill total amount EURO 51,18	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Bill total amount EURO 51,18	05-12-2024 16:31:27
+Info-logger: Checking order file:Bill total amount EURO 51,18	05-12-2024 16:31:27
+Info-logger: Checking check file:From: WorlWide ABC Company	05-12-2024 16:31:27
+Info-logger: Checking invoice file:From: WorlWide ABC Company	05-12-2024 16:31:27
+Info-logger: Checking order file:From: WorlWide ABC Company	05-12-2024 16:31:27
+Info-logger: Checking check file:Pay To: EU National Subcompany	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Pay To: EU National Subcompany	05-12-2024 16:31:27
+Info-logger: Checking order file:Pay To: EU National Subcompany	05-12-2024 16:31:27
+Info-logger: Checking check file:Check # 12	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Check # 12	05-12-2024 16:31:27
+Info-logger: Checking order file:Check # 12	05-12-2024 16:31:27
+Info-logger: Checking check file:Order # O45012	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Order # O45012	05-12-2024 16:31:27
+Info-logger: Checking order file:Order # O45012	05-12-2024 16:31:27
+Info-logger: Checking check file:Invoice # In45012	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Invoice # In45012	05-12-2024 16:31:27
+Info-logger: Checking order file:Invoice # In45012	05-12-2024 16:31:27
+Info-logger: Checking check file:Date: 15.12.2023	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Date: 15.12.2023	05-12-2024 16:31:27
+Info-logger: Checking order file:Date: 15.12.2023	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:Bill total amount EURO 3951,00	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Bill total amount EURO 3951,00	05-12-2024 16:31:27
+Info-logger: Checking order file:Bill total amount EURO 3951,00	05-12-2024 16:31:27
+Info-logger: Checking check file:INVOICE	05-12-2024 16:31:27
+Info-logger: Checking invoice file:INVOICE	05-12-2024 16:31:27
+Info-logger: Checking order file:INVOICE	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:East Repair Incorporated	05-12-2024 16:31:27
+Info-logger: Checking invoice file:East Repair Incorporated	05-12-2024 16:31:27
+Info-logger: Checking order file:East Repair Incorporated	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:Invoice Date 01/01/2023	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Invoice Date 01/01/2023	05-12-2024 16:31:27
+Info-logger: Checking order file:Invoice Date 01/01/2023	05-12-2024 16:31:27
+Info-logger: Checking check file:Due Date 26/01/2023	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Due Date 26/01/2023	05-12-2024 16:31:27
+Info-logger: Checking order file:Due Date 26/01/2023	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:1. Brake model 17 123	05-12-2024 16:31:27
+Info-logger: Checking invoice file:1. Brake model 17 123	05-12-2024 16:31:27
+Info-logger: Checking order file:1. Brake model 17 123	05-12-2024 16:31:27
+Info-logger: Checking check file:2. Brake model 27 57	05-12-2024 16:31:27
+Info-logger: Checking invoice file:2. Brake model 27 57	05-12-2024 16:31:27
+Info-logger: Checking order file:2. Brake model 27 57	05-12-2024 16:31:27
+Info-logger: Checking check file:3. Brake model 37 78	05-12-2024 16:31:27
+Info-logger: Checking invoice file:3. Brake model 37 78	05-12-2024 16:31:27
+Info-logger: Checking order file:3. Brake model 37 78	05-12-2024 16:31:27
+Info-logger: Checking check file:4. Brake model 47 101	05-12-2024 16:31:27
+Info-logger: Checking invoice file:4. Brake model 47 101	05-12-2024 16:31:27
+Info-logger: Checking order file:4. Brake model 47 101	05-12-2024 16:31:27
+Info-logger: Checking check file:5. Brake model 57 1001	05-12-2024 16:31:27
+Info-logger: Checking invoice file:5. Brake model 57 1001	05-12-2024 16:31:27
+Info-logger: Checking order file:5. Brake model 57 1001	05-12-2024 16:31:27
+Info-logger: Checking check file:6. Brake model 67 156	05-12-2024 16:31:27
+Info-logger: Checking invoice file:6. Brake model 67 156	05-12-2024 16:31:27
+Info-logger: Checking order file:6. Brake model 67 156	05-12-2024 16:31:27
+Info-logger: Checking check file:7. Brake model 77 157	05-12-2024 16:31:27
+Info-logger: Checking invoice file:7. Brake model 77 157	05-12-2024 16:31:27
+Info-logger: Checking order file:7. Brake model 77 157	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:Total amount 1673$	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Total amount 1673$	05-12-2024 16:31:27
+Info-logger: Checking order file:Total amount 1673$	05-12-2024 16:31:27
+Info-logger: Checking check file:ReaLHandy	05-12-2024 16:31:27
+Info-logger: Checking invoice file:ReaLHandy	05-12-2024 16:31:27
+Info-logger: Checking order file:ReaLHandy	05-12-2024 16:31:27
+Info-logger: Checking check file:Home Repair & Maintenance	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Home Repair & Maintenance	05-12-2024 16:31:27
+Info-logger: Checking order file:Home Repair & Maintenance	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:1. Tool set 1	05-12-2024 16:31:27
+Info-logger: Checking invoice file:1. Tool set 1	05-12-2024 16:31:27
+Info-logger: Checking order file:1. Tool set 1	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:Total Amount 744.00	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Total Amount 744.00	05-12-2024 16:31:27
+Info-logger: Checking order file:Total Amount 744.00	05-12-2024 16:31:27
+Info-logger: Checking check file:INVOICE	05-12-2024 16:31:27
+Info-logger: Checking invoice file:INVOICE	05-12-2024 16:31:27
+Info-logger: Checking order file:INVOICE	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:East Repair Inc.	05-12-2024 16:31:27
+Info-logger: Checking invoice file:East Repair Inc.	05-12-2024 16:31:27
+Info-logger: Checking order file:East Repair Inc.	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:Invoice Date 11/02/2023	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Invoice Date 11/02/2023	05-12-2024 16:31:27
+Info-logger: Checking order file:Invoice Date 11/02/2023	05-12-2024 16:31:27
+Info-logger: Checking check file:Due Date 26/02/2023	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Due Date 26/02/2023	05-12-2024 16:31:27
+Info-logger: Checking order file:Due Date 26/02/2023	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:Bill To: John Smoth, NY 12210	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Bill To: John Smoth, NY 12210	05-12-2024 16:31:27
+Info-logger: Checking order file:Bill To: John Smoth, NY 12210	05-12-2024 16:31:27
+Info-logger: Checking check file:Ship To: John Smoth, NY 12210	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Ship To: John Smoth, NY 12210	05-12-2024 16:31:27
+Info-logger: Checking order file:Ship To: John Smoth, NY 12210	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:1. Brake cables 100	05-12-2024 16:31:27
+Info-logger: Checking invoice file:1. Brake cables 100	05-12-2024 16:31:27
+Info-logger: Checking order file:1. Brake cables 100	05-12-2024 16:31:27
+Info-logger: Checking check file:2. New tools set 234	05-12-2024 16:31:27
+Info-logger: Checking invoice file:2. New tools set 234	05-12-2024 16:31:27
+Info-logger: Checking order file:2. New tools set 234	05-12-2024 16:31:27
+Info-logger: Checking check file:3. Labor 14	05-12-2024 16:31:27
+Info-logger: Checking invoice file:3. Labor 14	05-12-2024 16:31:27
+Info-logger: Checking order file:3. Labor 14	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:Total amount 348	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Total amount 348	05-12-2024 16:31:27
+Info-logger: Checking order file:Total amount 348	05-12-2024 16:31:27
+Info-logger: Checking check file:RealHandy - Home Repair & Maintenance	05-12-2024 16:31:27
+Info-logger: Checking invoice file:RealHandy - Home Repair & Maintenance	05-12-2024 16:31:27
+Info-logger: Checking order file:RealHandy - Home Repair & Maintenance	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:1. Tool set 2	05-12-2024 16:31:27
+Info-logger: Checking invoice file:1. Tool set 2	05-12-2024 16:31:27
+Info-logger: Checking order file:1. Tool set 2	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:Total Amount 144.00	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Total Amount 144.00	05-12-2024 16:31:27
+Info-logger: Checking order file:Total Amount 144.00	05-12-2024 16:31:27
+Info-logger: Checking check file:INVOICE	05-12-2024 16:31:27
+Info-logger: Checking invoice file:INVOICE	05-12-2024 16:31:27
+Info-logger: Checking order file:INVOICE	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:East Repair	05-12-2024 16:31:27
+Info-logger: Checking invoice file:East Repair	05-12-2024 16:31:27
+Info-logger: Checking order file:East Repair	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:Invoice Date 19/03/2023	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Invoice Date 19/03/2023	05-12-2024 16:31:27
+Info-logger: Checking order file:Invoice Date 19/03/2023	05-12-2024 16:31:27
+Info-logger: Checking check file:Due Date 26/03/2023	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Due Date 26/03/2023	05-12-2024 16:31:27
+Info-logger: Checking order file:Due Date 26/03/2023	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:Bill To: Ken Braun, DC 34590	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Bill To: Ken Braun, DC 34590	05-12-2024 16:31:27
+Info-logger: Checking order file:Bill To: Ken Braun, DC 34590	05-12-2024 16:31:27
+Info-logger: Checking check file:Ship To: Ken Braun, DC 34590	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Ship To: Ken Braun, DC 34590	05-12-2024 16:31:27
+Info-logger: Checking order file:Ship To: Ken Braun, DC 34590	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:1. Brake model 67 1290	05-12-2024 16:31:27
+Info-logger: Checking invoice file:1. Brake model 67 1290	05-12-2024 16:31:27
+Info-logger: Checking order file:1. Brake model 67 1290	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:Total amount 1290	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Total amount 1290	05-12-2024 16:31:27
+Info-logger: Checking order file:Total amount 1290	05-12-2024 16:31:27
+Info-logger: Checking check file:RealHandy - Home Repair & Maintenance	05-12-2024 16:31:27
+Info-logger: Checking invoice file:RealHandy - Home Repair & Maintenance	05-12-2024 16:31:27
+Info-logger: Checking order file:RealHandy - Home Repair & Maintenance	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:1. Tool set 3	05-12-2024 16:31:27
+Info-logger: Checking invoice file:1. Tool set 3	05-12-2024 16:31:27
+Info-logger: Checking order file:1. Tool set 3	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:Total Amount 564.00	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Total Amount 564.00	05-12-2024 16:31:27
+Info-logger: Checking order file:Total Amount 564.00	05-12-2024 16:31:27
+Info-logger: Checking check file:INVOICE	05-12-2024 16:31:27
+Info-logger: Checking invoice file:INVOICE	05-12-2024 16:31:27
+Info-logger: Checking order file:INVOICE	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:East Repair	05-12-2024 16:31:27
+Info-logger: Checking invoice file:East Repair	05-12-2024 16:31:27
+Info-logger: Checking order file:East Repair	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:Invoice Date 15/04/2023	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Invoice Date 15/04/2023	05-12-2024 16:31:27
+Info-logger: Checking order file:Invoice Date 15/04/2023	05-12-2024 16:31:27
+Info-logger: Checking check file:Due Date 26/04/2023	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Due Date 26/04/2023	05-12-2024 16:31:27
+Info-logger: Checking order file:Due Date 26/04/2023	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:1. Repair tools set model 17.78 33	05-12-2024 16:31:27
+Info-logger: Checking invoice file:1. Repair tools set model 17.78 33	05-12-2024 16:31:27
+Info-logger: Checking order file:1. Repair tools set model 17.78 33	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:Total AMOUNT 33$	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Total AMOUNT 33$	05-12-2024 16:31:27
+Info-logger: Checking order file:Total AMOUNT 33$	05-12-2024 16:31:27
+Info-logger: Checking check file:ReaLHandy	05-12-2024 16:31:27
+Info-logger: Checking invoice file:ReaLHandy	05-12-2024 16:31:27
+Info-logger: Checking order file:ReaLHandy	05-12-2024 16:31:27
+Info-logger: Checking check file:Home Repair & Maintenance	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Home Repair & Maintenance	05-12-2024 16:31:27
+Info-logger: Checking order file:Home Repair & Maintenance	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:1. Tool set 4	05-12-2024 16:31:27
+Info-logger: Checking invoice file:1. Tool set 4	05-12-2024 16:31:27
+Info-logger: Checking order file:1. Tool set 4	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:Total Amount 24.00	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Total Amount 24.00	05-12-2024 16:31:27
+Info-logger: Checking order file:Total Amount 24.00	05-12-2024 16:31:27
+Info-logger: Checking check file:INVOICE	05-12-2024 16:31:27
+Info-logger: Checking invoice file:INVOICE	05-12-2024 16:31:27
+Info-logger: Checking order file:INVOICE	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:East Repair	05-12-2024 16:31:27
+Info-logger: Checking invoice file:East Repair	05-12-2024 16:31:27
+Info-logger: Checking order file:East Repair	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:Invoice Date 15/05/2023	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Invoice Date 15/05/2023	05-12-2024 16:31:27
+Info-logger: Checking order file:Invoice Date 15/05/2023	05-12-2024 16:31:27
+Info-logger: Checking check file:Due Date 26/05/2023	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Due Date 26/05/2023	05-12-2024 16:31:27
+Info-logger: Checking order file:Due Date 26/05/2023	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:1. Repair tools set 789 model 337.78	05-12-2024 16:31:27
+Info-logger: Checking invoice file:1. Repair tools set 789 model 337.78	05-12-2024 16:31:27
+Info-logger: Checking order file:1. Repair tools set 789 model 337.78	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:Total   amount 337.78$	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Total   amount 337.78$	05-12-2024 16:31:27
+Info-logger: Checking order file:Total   amount 337.78$	05-12-2024 16:31:27
+Info-logger: Checking check file:Realhandy	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Realhandy	05-12-2024 16:31:27
+Info-logger: Checking order file:Realhandy	05-12-2024 16:31:27
+Info-logger: Checking check file:Home Repair & Maintenance	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Home Repair & Maintenance	05-12-2024 16:31:27
+Info-logger: Checking order file:Home Repair & Maintenance	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:1. Tool set 5	05-12-2024 16:31:27
+Info-logger: Checking invoice file:1. Tool set 5	05-12-2024 16:31:27
+Info-logger: Checking order file:1. Tool set 5	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:Total Amount 234.00	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Total Amount 234.00	05-12-2024 16:31:27
+Info-logger: Checking order file:Total Amount 234.00	05-12-2024 16:31:27
+Info-logger: Checking check file:INVOICE	05-12-2024 16:31:27
+Info-logger: Checking invoice file:INVOICE	05-12-2024 16:31:27
+Info-logger: Checking order file:INVOICE	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:East Repair	05-12-2024 16:31:27
+Info-logger: Checking invoice file:East Repair	05-12-2024 16:31:27
+Info-logger: Checking order file:East Repair	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:Invoice Date 15/06/2023	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Invoice Date 15/06/2023	05-12-2024 16:31:27
+Info-logger: Checking order file:Invoice Date 15/06/2023	05-12-2024 16:31:27
+Info-logger: Checking check file:Due Date 26/06/2023	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Due Date 26/06/2023	05-12-2024 16:31:27
+Info-logger: Checking order file:Due Date 26/06/2023	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:1. Repair tools set 789-3 model 177.08	05-12-2024 16:31:27
+Info-logger: Checking invoice file:1. Repair tools set 789-3 model 177.08	05-12-2024 16:31:27
+Info-logger: Checking order file:1. Repair tools set 789-3 model 177.08	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:Total amount $177.08	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Total amount $177.08	05-12-2024 16:31:27
+Info-logger: Checking order file:Total amount $177.08	05-12-2024 16:31:27
+Info-logger: Checking check file:realhandy	05-12-2024 16:31:27
+Info-logger: Checking invoice file:realhandy	05-12-2024 16:31:27
+Info-logger: Checking order file:realhandy	05-12-2024 16:31:27
+Info-logger: Checking check file:Home Repair & Maintenance	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Home Repair & Maintenance	05-12-2024 16:31:27
+Info-logger: Checking order file:Home Repair & Maintenance	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:1. Tool set 6	05-12-2024 16:31:27
+Info-logger: Checking invoice file:1. Tool set 6	05-12-2024 16:31:27
+Info-logger: Checking order file:1. Tool set 6	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:Total Amount  234.05	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Total Amount  234.05	05-12-2024 16:31:27
+Info-logger: Checking order file:Total Amount  234.05	05-12-2024 16:31:27
+Info-logger: Checking check file:INVOICE	05-12-2024 16:31:27
+Info-logger: Checking invoice file:INVOICE	05-12-2024 16:31:27
+Info-logger: Checking order file:INVOICE	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:East Repair Inc	05-12-2024 16:31:27
+Info-logger: Checking invoice file:East Repair Inc	05-12-2024 16:31:27
+Info-logger: Checking order file:East Repair Inc	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:Invoice Date 03/07/2023	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Invoice Date 03/07/2023	05-12-2024 16:31:27
+Info-logger: Checking order file:Invoice Date 03/07/2023	05-12-2024 16:31:27
+Info-logger: Checking check file:Due Date 26/07/2023	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Due Date 26/07/2023	05-12-2024 16:31:27
+Info-logger: Checking order file:Due Date 26/07/2023	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:1. Repair tools set 789-1 model 100	05-12-2024 16:31:27
+Info-logger: Checking invoice file:1. Repair tools set 789-1 model 100	05-12-2024 16:31:27
+Info-logger: Checking order file:1. Repair tools set 789-1 model 100	05-12-2024 16:31:27
+Info-logger: Checking check file:2. Repair tools set 789-4 model 101	05-12-2024 16:31:27
+Info-logger: Checking invoice file:2. Repair tools set 789-4 model 101	05-12-2024 16:31:27
+Info-logger: Checking order file:2. Repair tools set 789-4 model 101	05-12-2024 16:31:27
+Info-logger: Checking check file:3. Repair tools set 789-5 model 102	05-12-2024 16:31:27
+Info-logger: Checking invoice file:3. Repair tools set 789-5 model 102	05-12-2024 16:31:27
+Info-logger: Checking order file:3. Repair tools set 789-5 model 102	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:Total amount $303	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Total amount $303	05-12-2024 16:31:27
+Info-logger: Checking order file:Total amount $303	05-12-2024 16:31:27
+Info-logger: Checking check file:realhandy	05-12-2024 16:31:27
+Info-logger: Checking invoice file:realhandy	05-12-2024 16:31:27
+Info-logger: Checking order file:realhandy	05-12-2024 16:31:27
+Info-logger: Checking check file:Home Repair & Maintenance	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Home Repair & Maintenance	05-12-2024 16:31:27
+Info-logger: Checking order file:Home Repair & Maintenance	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:1. Tool set 7	05-12-2024 16:31:27
+Info-logger: Checking invoice file:1. Tool set 7	05-12-2024 16:31:27
+Info-logger: Checking order file:1. Tool set 7	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:Total Amount  50.89	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Total Amount  50.89	05-12-2024 16:31:27
+Info-logger: Checking order file:Total Amount  50.89	05-12-2024 16:31:27
+Info-logger: Checking check file:INVOICE	05-12-2024 16:31:27
+Info-logger: Checking invoice file:INVOICE	05-12-2024 16:31:27
+Info-logger: Checking order file:INVOICE	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:East Repair Inc.	05-12-2024 16:31:27
+Info-logger: Checking invoice file:East Repair Inc.	05-12-2024 16:31:27
+Info-logger: Checking order file:East Repair Inc.	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:Invoice Date 03/08/2023	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Invoice Date 03/08/2023	05-12-2024 16:31:27
+Info-logger: Checking order file:Invoice Date 03/08/2023	05-12-2024 16:31:27
+Info-logger: Checking check file:Due Date 26/08/2023	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Due Date 26/08/2023	05-12-2024 16:31:27
+Info-logger: Checking order file:Due Date 26/08/2023	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:1. Repair tools set 789-1 model 100	05-12-2024 16:31:27
+Info-logger: Checking invoice file:1. Repair tools set 789-1 model 100	05-12-2024 16:31:27
+Info-logger: Checking order file:1. Repair tools set 789-1 model 100	05-12-2024 16:31:27
+Info-logger: Checking check file:2. Repair tools set 789-4 model 101	05-12-2024 16:31:27
+Info-logger: Checking invoice file:2. Repair tools set 789-4 model 101	05-12-2024 16:31:27
+Info-logger: Checking order file:2. Repair tools set 789-4 model 101	05-12-2024 16:31:27
+Info-logger: Checking check file:3. Repair tools set 789-5 model 102	05-12-2024 16:31:27
+Info-logger: Checking invoice file:3. Repair tools set 789-5 model 102	05-12-2024 16:31:27
+Info-logger: Checking order file:3. Repair tools set 789-5 model 102	05-12-2024 16:31:27
+Info-logger: Checking check file:3. Repair tools set 789-5 model 102	05-12-2024 16:31:27
+Info-logger: Checking invoice file:3. Repair tools set 789-5 model 102	05-12-2024 16:31:27
+Info-logger: Checking order file:3. Repair tools set 789-5 model 102	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:Total amount $405	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Total amount $405	05-12-2024 16:31:27
+Info-logger: Checking order file:Total amount $405	05-12-2024 16:31:27
+Info-logger: Checking check file:realhandy	05-12-2024 16:31:27
+Info-logger: Checking invoice file:realhandy	05-12-2024 16:31:27
+Info-logger: Checking order file:realhandy	05-12-2024 16:31:27
+Info-logger: Checking check file:Home Repair & Maintenance	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Home Repair & Maintenance	05-12-2024 16:31:27
+Info-logger: Checking order file:Home Repair & Maintenance	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:1. Tool set 8	05-12-2024 16:31:27
+Info-logger: Checking invoice file:1. Tool set 8	05-12-2024 16:31:27
+Info-logger: Checking order file:1. Tool set 8	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:Total Amount 150.67	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Total Amount 150.67	05-12-2024 16:31:27
+Info-logger: Checking order file:Total Amount 150.67	05-12-2024 16:31:27
+Info-logger: Checking check file:INVOICE	05-12-2024 16:31:27
+Info-logger: Checking invoice file:INVOICE	05-12-2024 16:31:27
+Info-logger: Checking order file:INVOICE	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:East Repair Inc.	05-12-2024 16:31:27
+Info-logger: Checking invoice file:East Repair Inc.	05-12-2024 16:31:27
+Info-logger: Checking order file:East Repair Inc.	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:Invoice Date 09/09/2023	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Invoice Date 09/09/2023	05-12-2024 16:31:27
+Info-logger: Checking order file:Invoice Date 09/09/2023	05-12-2024 16:31:27
+Info-logger: Checking check file:Due Date 26/09/2023	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Due Date 26/09/2023	05-12-2024 16:31:27
+Info-logger: Checking order file:Due Date 26/09/2023	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:1. Repair tools set 789-1 model 100	05-12-2024 16:31:27
+Info-logger: Checking invoice file:1. Repair tools set 789-1 model 100	05-12-2024 16:31:27
+Info-logger: Checking order file:1. Repair tools set 789-1 model 100	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:Total amount 100$	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Total amount 100$	05-12-2024 16:31:27
+Info-logger: Checking order file:Total amount 100$	05-12-2024 16:31:27
+Info-logger: Checking check file:ReaLHandy	05-12-2024 16:31:27
+Info-logger: Checking invoice file:ReaLHandy	05-12-2024 16:31:27
+Info-logger: Checking order file:ReaLHandy	05-12-2024 16:31:27
+Info-logger: Checking check file:Home Repair & Maintenance	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Home Repair & Maintenance	05-12-2024 16:31:27
+Info-logger: Checking order file:Home Repair & Maintenance	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:1. Tool set 9	05-12-2024 16:31:27
+Info-logger: Checking invoice file:1. Tool set 9	05-12-2024 16:31:27
+Info-logger: Checking order file:1. Tool set 9	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:Total Amount  100.67	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Total Amount  100.67	05-12-2024 16:31:27
+Info-logger: Checking order file:Total Amount  100.67	05-12-2024 16:31:27
+Info-logger: Checking check file:INVOICE	05-12-2024 16:31:27
+Info-logger: Checking invoice file:INVOICE	05-12-2024 16:31:27
+Info-logger: Checking order file:INVOICE	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:East Repair Inc.	05-12-2024 16:31:27
+Info-logger: Checking invoice file:East Repair Inc.	05-12-2024 16:31:27
+Info-logger: Checking order file:East Repair Inc.	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:Invoice Date 09/10/2023	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Invoice Date 09/10/2023	05-12-2024 16:31:27
+Info-logger: Checking order file:Invoice Date 09/10/2023	05-12-2024 16:31:27
+Info-logger: Checking check file:Due Date 26/10/2023	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Due Date 26/10/2023	05-12-2024 16:31:27
+Info-logger: Checking order file:Due Date 26/10/2023	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:1. Repair tools set 789-1 model 100	05-12-2024 16:31:27
+Info-logger: Checking invoice file:1. Repair tools set 789-1 model 100	05-12-2024 16:31:27
+Info-logger: Checking order file:1. Repair tools set 789-1 model 100	05-12-2024 16:31:27
+Info-logger: Checking check file:2. Repair tools set 789-1 model 100	05-12-2024 16:31:27
+Info-logger: Checking invoice file:2. Repair tools set 789-1 model 100	05-12-2024 16:31:27
+Info-logger: Checking order file:2. Repair tools set 789-1 model 100	05-12-2024 16:31:27
+Info-logger: Checking check file:3. Repair tools set 789-1 model 100	05-12-2024 16:31:27
+Info-logger: Checking invoice file:3. Repair tools set 789-1 model 100	05-12-2024 16:31:27
+Info-logger: Checking order file:3. Repair tools set 789-1 model 100	05-12-2024 16:31:27
+Info-logger: Checking check file:4. Repair tools set 789-1 model 100	05-12-2024 16:31:27
+Info-logger: Checking invoice file:4. Repair tools set 789-1 model 100	05-12-2024 16:31:27
+Info-logger: Checking order file:4. Repair tools set 789-1 model 100	05-12-2024 16:31:27
+Info-logger: Checking check file:5. Repair tools set 789-1 model 100	05-12-2024 16:31:27
+Info-logger: Checking invoice file:5. Repair tools set 789-1 model 100	05-12-2024 16:31:27
+Info-logger: Checking order file:5. Repair tools set 789-1 model 100	05-12-2024 16:31:27
+Info-logger: Checking check file:6. Repair tools set 789-1 model 100	05-12-2024 16:31:27
+Info-logger: Checking invoice file:6. Repair tools set 789-1 model 100	05-12-2024 16:31:27
+Info-logger: Checking order file:6. Repair tools set 789-1 model 100	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:Total amount 600$	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Total amount 600$	05-12-2024 16:31:27
+Info-logger: Checking order file:Total amount 600$	05-12-2024 16:31:27
+Info-logger: Checking check file:ReaLHandy	05-12-2024 16:31:27
+Info-logger: Checking invoice file:ReaLHandy	05-12-2024 16:31:27
+Info-logger: Checking order file:ReaLHandy	05-12-2024 16:31:27
+Info-logger: Checking check file:Home Repair & Maintenance	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Home Repair & Maintenance	05-12-2024 16:31:27
+Info-logger: Checking order file:Home Repair & Maintenance	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:1. Tool set 10	05-12-2024 16:31:27
+Info-logger: Checking invoice file:1. Tool set 10	05-12-2024 16:31:27
+Info-logger: Checking order file:1. Tool set 10	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:Total Amount  99.01	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Total Amount  99.01	05-12-2024 16:31:27
+Info-logger: Checking order file:Total Amount  99.01	05-12-2024 16:31:27
+Info-logger: Checking check file:INVOICE	05-12-2024 16:31:27
+Info-logger: Checking invoice file:INVOICE	05-12-2024 16:31:27
+Info-logger: Checking order file:INVOICE	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:East Repair Inc.	05-12-2024 16:31:27
+Info-logger: Checking invoice file:East Repair Inc.	05-12-2024 16:31:27
+Info-logger: Checking order file:East Repair Inc.	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:Invoice Date 19/11/2023	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Invoice Date 19/11/2023	05-12-2024 16:31:27
+Info-logger: Checking order file:Invoice Date 19/11/2023	05-12-2024 16:31:27
+Info-logger: Checking check file:Due Date 26/11/2023	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Due Date 26/11/2023	05-12-2024 16:31:27
+Info-logger: Checking order file:Due Date 26/11/2023	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:1. Repair tools set 789-1 model 100	05-12-2024 16:31:27
+Info-logger: Checking invoice file:1. Repair tools set 789-1 model 100	05-12-2024 16:31:27
+Info-logger: Checking order file:1. Repair tools set 789-1 model 100	05-12-2024 16:31:27
+Info-logger: Checking check file:2. Repair tools set 789-1 model 100	05-12-2024 16:31:27
+Info-logger: Checking invoice file:2. Repair tools set 789-1 model 100	05-12-2024 16:31:27
+Info-logger: Checking order file:2. Repair tools set 789-1 model 100	05-12-2024 16:31:27
+Info-logger: Checking check file:3. Repair tools set 789-1 model 100	05-12-2024 16:31:27
+Info-logger: Checking invoice file:3. Repair tools set 789-1 model 100	05-12-2024 16:31:27
+Info-logger: Checking order file:3. Repair tools set 789-1 model 100	05-12-2024 16:31:27
+Info-logger: Checking check file:4. Repair tools set 789-1 model 100	05-12-2024 16:31:27
+Info-logger: Checking invoice file:4. Repair tools set 789-1 model 100	05-12-2024 16:31:27
+Info-logger: Checking order file:4. Repair tools set 789-1 model 100	05-12-2024 16:31:27
+Info-logger: Checking check file:5. Repair tools set 789-1 model 100	05-12-2024 16:31:27
+Info-logger: Checking invoice file:5. Repair tools set 789-1 model 100	05-12-2024 16:31:27
+Info-logger: Checking order file:5. Repair tools set 789-1 model 100	05-12-2024 16:31:27
+Info-logger: Checking check file:6. Repair tools set 789-1 model 100	05-12-2024 16:31:27
+Info-logger: Checking invoice file:6. Repair tools set 789-1 model 100	05-12-2024 16:31:27
+Info-logger: Checking order file:6. Repair tools set 789-1 model 100	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:Total amount 600$	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Total amount 600$	05-12-2024 16:31:27
+Info-logger: Checking order file:Total amount 600$	05-12-2024 16:31:27
+Info-logger: Checking check file:ReaLHandy	05-12-2024 16:31:27
+Info-logger: Checking invoice file:ReaLHandy	05-12-2024 16:31:27
+Info-logger: Checking order file:ReaLHandy	05-12-2024 16:31:27
+Info-logger: Checking check file:Home Repair & Maintenance	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Home Repair & Maintenance	05-12-2024 16:31:27
+Info-logger: Checking order file:Home Repair & Maintenance	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:1. Tool set 11	05-12-2024 16:31:27
+Info-logger: Checking invoice file:1. Tool set 11	05-12-2024 16:31:27
+Info-logger: Checking order file:1. Tool set 11	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:Total Amount  99.99	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Total Amount  99.99	05-12-2024 16:31:27
+Info-logger: Checking order file:Total Amount  99.99	05-12-2024 16:31:27
+Info-logger: Checking check file:INVOICE	05-12-2024 16:31:27
+Info-logger: Checking invoice file:INVOICE	05-12-2024 16:31:27
+Info-logger: Checking order file:INVOICE	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:East Repair	05-12-2024 16:31:27
+Info-logger: Checking invoice file:East Repair	05-12-2024 16:31:27
+Info-logger: Checking order file:East Repair	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:Invoice Date 01/12/2023	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Invoice Date 01/12/2023	05-12-2024 16:31:27
+Info-logger: Checking order file:Invoice Date 01/12/2023	05-12-2024 16:31:27
+Info-logger: Checking check file:Due Date 26/12/2023	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Due Date 26/12/2023	05-12-2024 16:31:27
+Info-logger: Checking order file:Due Date 26/12/2023	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:1. Repair tools set 789-1 model 100	05-12-2024 16:31:27
+Info-logger: Checking invoice file:1. Repair tools set 789-1 model 100	05-12-2024 16:31:27
+Info-logger: Checking order file:1. Repair tools set 789-1 model 100	05-12-2024 16:31:27
+Info-logger: Checking check file:2. Repair tools set 789-1 model 100	05-12-2024 16:31:27
+Info-logger: Checking invoice file:2. Repair tools set 789-1 model 100	05-12-2024 16:31:27
+Info-logger: Checking order file:2. Repair tools set 789-1 model 100	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:Total amount 200$	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Total amount 200$	05-12-2024 16:31:27
+Info-logger: Checking order file:Total amount 200$	05-12-2024 16:31:27
+Info-logger: Checking check file:ReaLHandy	05-12-2024 16:31:27
+Info-logger: Checking invoice file:ReaLHandy	05-12-2024 16:31:27
+Info-logger: Checking order file:ReaLHandy	05-12-2024 16:31:27
+Info-logger: Checking check file:Home Repair & Maintenance	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Home Repair & Maintenance	05-12-2024 16:31:27
+Info-logger: Checking order file:Home Repair & Maintenance	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:1. Tool set 12	05-12-2024 16:31:27
+Info-logger: Checking invoice file:1. Tool set 12	05-12-2024 16:31:27
+Info-logger: Checking order file:1. Tool set 12	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:Total Amount  399.99	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Total Amount  399.99	05-12-2024 16:31:27
+Info-logger: Checking order file:Total Amount  399.99	05-12-2024 16:31:27
+Info-logger: Checking check file:PurchaseControl	05-12-2024 16:31:27
+Info-logger: Checking invoice file:PurchaseControl	05-12-2024 16:31:27
+Info-logger: Checking order file:PurchaseControl	05-12-2024 16:31:27
+Info-logger: Checking check file:Boston Office	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Boston Office	05-12-2024 16:31:27
+Info-logger: Checking order file:Boston Office	05-12-2024 16:31:27
+Info-logger: Checking check file:One Post Square 3600	05-12-2024 16:31:27
+Info-logger: Checking invoice file:One Post Square 3600	05-12-2024 16:31:27
+Info-logger: Checking order file:One Post Square 3600	05-12-2024 16:31:27
+Info-logger: Checking check file:Boston MA, 02109	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Boston MA, 02109	05-12-2024 16:31:27
+Info-logger: Checking order file:Boston MA, 02109	05-12-2024 16:31:27
+Info-logger: Checking check file:USA	05-12-2024 16:31:27
+Info-logger: Checking invoice file:USA	05-12-2024 16:31:27
+Info-logger: Checking order file:USA	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:Order #P00495001	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Order #P00495001	05-12-2024 16:31:27
+Info-logger: Checking order file:Order #P00495001	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:Order Total 1,228.01	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Order Total 1,228.01	05-12-2024 16:31:27
+Info-logger: Checking order file:Order Total 1,228.01	05-12-2024 16:31:27
+Info-logger: Checking check file:PurchaseControl	05-12-2024 16:31:27
+Info-logger: Checking invoice file:PurchaseControl	05-12-2024 16:31:27
+Info-logger: Checking order file:PurchaseControl	05-12-2024 16:31:27
+Info-logger: Checking check file:Boston Office	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Boston Office	05-12-2024 16:31:27
+Info-logger: Checking order file:Boston Office	05-12-2024 16:31:27
+Info-logger: Checking check file:One Post Square 3600	05-12-2024 16:31:27
+Info-logger: Checking invoice file:One Post Square 3600	05-12-2024 16:31:27
+Info-logger: Checking order file:One Post Square 3600	05-12-2024 16:31:27
+Info-logger: Checking check file:Boston MA, 02109	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Boston MA, 02109	05-12-2024 16:31:27
+Info-logger: Checking order file:Boston MA, 02109	05-12-2024 16:31:27
+Info-logger: Checking check file:USA	05-12-2024 16:31:27
+Info-logger: Checking invoice file:USA	05-12-2024 16:31:27
+Info-logger: Checking order file:USA	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:Order #P00495001	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Order #P00495001	05-12-2024 16:31:27
+Info-logger: Checking order file:Order #P00495001	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:Order Total 1,228.01	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Order Total 1,228.01	05-12-2024 16:31:27
+Info-logger: Checking order file:Order Total 1,228.01	05-12-2024 16:31:27
+Info-logger: Checking check file:PurchaseControl	05-12-2024 16:31:27
+Info-logger: Checking invoice file:PurchaseControl	05-12-2024 16:31:27
+Info-logger: Checking order file:PurchaseControl	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:Boston Office	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Boston Office	05-12-2024 16:31:27
+Info-logger: Checking order file:Boston Office	05-12-2024 16:31:27
+Info-logger: Checking check file:One Post Square 3600	05-12-2024 16:31:27
+Info-logger: Checking invoice file:One Post Square 3600	05-12-2024 16:31:27
+Info-logger: Checking order file:One Post Square 3600	05-12-2024 16:31:27
+Info-logger: Checking check file:Boston MA, 02109	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Boston MA, 02109	05-12-2024 16:31:27
+Info-logger: Checking order file:Boston MA, 02109	05-12-2024 16:31:27
+Info-logger: Checking check file:USA	05-12-2024 16:31:27
+Info-logger: Checking invoice file:USA	05-12-2024 16:31:27
+Info-logger: Checking order file:USA	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:Order #P00495002	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Order #P00495002	05-12-2024 16:31:27
+Info-logger: Checking order file:Order #P00495002	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:Order Total 128.11	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Order Total 128.11	05-12-2024 16:31:27
+Info-logger: Checking order file:Order Total 128.11	05-12-2024 16:31:27
+Info-logger: Checking check file:Purchasecontrol	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Purchasecontrol	05-12-2024 16:31:27
+Info-logger: Checking order file:Purchasecontrol	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:Boston Office	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Boston Office	05-12-2024 16:31:27
+Info-logger: Checking order file:Boston Office	05-12-2024 16:31:27
+Info-logger: Checking check file:One Post Square 3600	05-12-2024 16:31:27
+Info-logger: Checking invoice file:One Post Square 3600	05-12-2024 16:31:27
+Info-logger: Checking order file:One Post Square 3600	05-12-2024 16:31:27
+Info-logger: Checking check file:Boston MA, 02109	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Boston MA, 02109	05-12-2024 16:31:27
+Info-logger: Checking order file:Boston MA, 02109	05-12-2024 16:31:27
+Info-logger: Checking check file:USA	05-12-2024 16:31:27
+Info-logger: Checking invoice file:USA	05-12-2024 16:31:27
+Info-logger: Checking order file:USA	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:Order #P00495003	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Order #P00495003	05-12-2024 16:31:27
+Info-logger: Checking order file:Order #P00495003	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:Order Total 18.00	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Order Total 18.00	05-12-2024 16:31:27
+Info-logger: Checking order file:Order Total 18.00	05-12-2024 16:31:27
+Info-logger: Checking check file:Purchasecontrol	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Purchasecontrol	05-12-2024 16:31:27
+Info-logger: Checking order file:Purchasecontrol	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:Boston Office	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Boston Office	05-12-2024 16:31:27
+Info-logger: Checking order file:Boston Office	05-12-2024 16:31:27
+Info-logger: Checking check file:One Post Square 3600	05-12-2024 16:31:27
+Info-logger: Checking invoice file:One Post Square 3600	05-12-2024 16:31:27
+Info-logger: Checking order file:One Post Square 3600	05-12-2024 16:31:27
+Info-logger: Checking check file:Boston MA, 02109	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Boston MA, 02109	05-12-2024 16:31:27
+Info-logger: Checking order file:Boston MA, 02109	05-12-2024 16:31:27
+Info-logger: Checking check file:USA	05-12-2024 16:31:27
+Info-logger: Checking invoice file:USA	05-12-2024 16:31:27
+Info-logger: Checking order file:USA	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:Order #P00495004	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Order #P00495004	05-12-2024 16:31:27
+Info-logger: Checking order file:Order #P00495004	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:Order Total 1,018.09	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Order Total 1,018.09	05-12-2024 16:31:27
+Info-logger: Checking order file:Order Total 1,018.09	05-12-2024 16:31:27
+Info-logger: Checking check file:PurchaseControl	05-12-2024 16:31:27
+Info-logger: Checking invoice file:PurchaseControl	05-12-2024 16:31:27
+Info-logger: Checking order file:PurchaseControl	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:Boston Office	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Boston Office	05-12-2024 16:31:27
+Info-logger: Checking order file:Boston Office	05-12-2024 16:31:27
+Info-logger: Checking check file:One Post Square 3600	05-12-2024 16:31:27
+Info-logger: Checking invoice file:One Post Square 3600	05-12-2024 16:31:27
+Info-logger: Checking order file:One Post Square 3600	05-12-2024 16:31:27
+Info-logger: Checking check file:Boston MA, 02109	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Boston MA, 02109	05-12-2024 16:31:27
+Info-logger: Checking order file:Boston MA, 02109	05-12-2024 16:31:27
+Info-logger: Checking check file:USA	05-12-2024 16:31:27
+Info-logger: Checking invoice file:USA	05-12-2024 16:31:27
+Info-logger: Checking order file:USA	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:Order #P00495009	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Order #P00495009	05-12-2024 16:31:27
+Info-logger: Checking order file:Order #P00495009	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:Order Total 154.00	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Order Total 154.00	05-12-2024 16:31:27
+Info-logger: Checking order file:Order Total 154.00	05-12-2024 16:31:27
+Info-logger: Checking check file:PurchaseControl	05-12-2024 16:31:27
+Info-logger: Checking invoice file:PurchaseControl	05-12-2024 16:31:27
+Info-logger: Checking order file:PurchaseControl	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:Boston Office	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Boston Office	05-12-2024 16:31:27
+Info-logger: Checking order file:Boston Office	05-12-2024 16:31:27
+Info-logger: Checking check file:One Post Square 3600	05-12-2024 16:31:27
+Info-logger: Checking invoice file:One Post Square 3600	05-12-2024 16:31:27
+Info-logger: Checking order file:One Post Square 3600	05-12-2024 16:31:27
+Info-logger: Checking check file:Boston MA, 02109	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Boston MA, 02109	05-12-2024 16:31:27
+Info-logger: Checking order file:Boston MA, 02109	05-12-2024 16:31:27
+Info-logger: Checking check file:USA	05-12-2024 16:31:27
+Info-logger: Checking invoice file:USA	05-12-2024 16:31:27
+Info-logger: Checking order file:USA	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:Order #P00495010	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Order #P00495010	05-12-2024 16:31:27
+Info-logger: Checking order file:Order #P00495010	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:Order Total 4,154.08	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Order Total 4,154.08	05-12-2024 16:31:27
+Info-logger: Checking order file:Order Total 4,154.08	05-12-2024 16:31:27
+Info-logger: Checking check file:Purchase Control	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Purchase Control	05-12-2024 16:31:27
+Info-logger: Checking order file:Purchase Control	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:Boston Office	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Boston Office	05-12-2024 16:31:27
+Info-logger: Checking order file:Boston Office	05-12-2024 16:31:27
+Info-logger: Checking check file:One Post Square 3600	05-12-2024 16:31:27
+Info-logger: Checking invoice file:One Post Square 3600	05-12-2024 16:31:27
+Info-logger: Checking order file:One Post Square 3600	05-12-2024 16:31:27
+Info-logger: Checking check file:Boston MA, 02109	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Boston MA, 02109	05-12-2024 16:31:27
+Info-logger: Checking order file:Boston MA, 02109	05-12-2024 16:31:27
+Info-logger: Checking check file:USA	05-12-2024 16:31:27
+Info-logger: Checking invoice file:USA	05-12-2024 16:31:27
+Info-logger: Checking order file:USA	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:Order #P00495011	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Order #P00495011	05-12-2024 16:31:27
+Info-logger: Checking order file:Order #P00495011	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:Order Total 567.00	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Order Total 567.00	05-12-2024 16:31:27
+Info-logger: Checking order file:Order Total 567.00	05-12-2024 16:31:27
+Info-logger: Checking check file:Purchase Control	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Purchase Control	05-12-2024 16:31:27
+Info-logger: Checking order file:Purchase Control	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:Boston Office	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Boston Office	05-12-2024 16:31:27
+Info-logger: Checking order file:Boston Office	05-12-2024 16:31:27
+Info-logger: Checking check file:One Post Square 3600	05-12-2024 16:31:27
+Info-logger: Checking invoice file:One Post Square 3600	05-12-2024 16:31:27
+Info-logger: Checking order file:One Post Square 3600	05-12-2024 16:31:27
+Info-logger: Checking check file:Boston MA, 02109	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Boston MA, 02109	05-12-2024 16:31:27
+Info-logger: Checking order file:Boston MA, 02109	05-12-2024 16:31:27
+Info-logger: Checking check file:USA	05-12-2024 16:31:27
+Info-logger: Checking invoice file:USA	05-12-2024 16:31:27
+Info-logger: Checking order file:USA	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:Order #P004950012	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Order #P004950012	05-12-2024 16:31:27
+Info-logger: Checking order file:Order #P004950012	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:Order Total 6,570.09	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Order Total 6,570.09	05-12-2024 16:31:27
+Info-logger: Checking order file:Order Total 6,570.09	05-12-2024 16:31:27
+Info-logger: Checking check file:Purchase Control	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Purchase Control	05-12-2024 16:31:27
+Info-logger: Checking order file:Purchase Control	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:Boston Office	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Boston Office	05-12-2024 16:31:27
+Info-logger: Checking order file:Boston Office	05-12-2024 16:31:27
+Info-logger: Checking check file:One Post Square 3600	05-12-2024 16:31:27
+Info-logger: Checking invoice file:One Post Square 3600	05-12-2024 16:31:27
+Info-logger: Checking order file:One Post Square 3600	05-12-2024 16:31:27
+Info-logger: Checking check file:Boston MA, 02109	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Boston MA, 02109	05-12-2024 16:31:27
+Info-logger: Checking order file:Boston MA, 02109	05-12-2024 16:31:27
+Info-logger: Checking check file:USA	05-12-2024 16:31:27
+Info-logger: Checking invoice file:USA	05-12-2024 16:31:27
+Info-logger: Checking order file:USA	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:Order #P004950012	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Order #P004950012	05-12-2024 16:31:27
+Info-logger: Checking order file:Order #P004950012	05-12-2024 16:31:27
+Info-logger: Checking check file:	05-12-2024 16:31:27
+Info-logger: Checking invoice file:	05-12-2024 16:31:27
+Info-logger: Checking order file:	05-12-2024 16:31:27
+Info-logger: Checking check file:Order Total 6,570.09	05-12-2024 16:31:27
+Info-logger: Checking invoice file:Order Total 6,570.09	05-12-2024 16:31:27
+Info-logger: Checking order file:Order Total 6,570.09	05-12-2024 16:31:27
+Info-logger: Saving to file	05-12-2024 16:31:27
+Info-logger: The file is was recorded successful	05-12-2024 16:31:27

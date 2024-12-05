@@ -11,12 +11,14 @@ import org.apache.commons.codec.binary.Hex;
 
 import java.io.FileOutputStream;
 import java.io.IOException;
-import java.io.UnsupportedEncodingException;
 import java.net.URLEncoder;
+import java.nio.charset.StandardCharsets;
 import java.security.SecureRandom;
 
+/**
+ * class for two factor user authorization
+ */
 public class TwoFactorAuthentication {
-
 
     public static String generateSecretKey() {
         SecureRandom random = new SecureRandom();
@@ -34,14 +36,10 @@ public class TwoFactorAuthentication {
     }
 
     public static String getGoogleAuthenticatorBarCode(String secretKey, String account, String issuer) {
-        try {
-            return "otpauth://totp/"
-                    + URLEncoder.encode(issuer + ":" + account, "UTF-8").replace("+", "%20")
-                    + "?secret=" + URLEncoder.encode(secretKey, "UTF-8").replace("+", "%20")
-                    + "&issuer=" + URLEncoder.encode(issuer, "UTF-8").replace("+", "%20");
-        } catch (UnsupportedEncodingException e) {
-            throw new IllegalStateException(e);
-        }
+        return "otpauth://totp/"
+                + URLEncoder.encode(issuer + ":" + account, StandardCharsets.UTF_8).replace("+", "%20")
+                + "?secret=" + URLEncoder.encode(secretKey, StandardCharsets.UTF_8).replace("+", "%20")
+                + "&issuer=" + URLEncoder.encode(issuer, StandardCharsets.UTF_8).replace("+", "%20");
     }
 
     public static void createQRCode(String barCodeData, String filePath, int height, int width)

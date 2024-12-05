@@ -1,6 +1,7 @@
 package com.teachmeskills.final_assignment.service;
 
 import com.teachmeskills.final_assignment.log.LoggerService;
+import com.teachmeskills.final_assignment.utils.Constants;
 
 import java.util.Base64;
 import java.util.Random;
@@ -13,15 +14,13 @@ public class EncryptService {
 
     public static String encrypt(String input){
         String encryptedString = Base64.getEncoder().encodeToString(input.getBytes());
-        String result = addSalt(encryptedString);
-        return result;
+        return addSalt(encryptedString);
     }
 
     public static String decrypt(String input){
-        LoggerService.logInfo("Decrypting user input data...");
+        LoggerService.logInfo(Constants.MESSAGE_DECRYPTING);
         byte[] bytes = Base64.getDecoder().decode(input.substring(20));
-        String result = new String(bytes);
-        return result;
+        return new String(bytes);
     }
 
     private static String addSalt(String input){
@@ -33,7 +32,6 @@ public class EncryptService {
                 .map(Object::toString)
                 .collect(Collectors.joining());
 
-        String result = salt + input;
-        return  result;
+        return salt + input;
     }
 }
