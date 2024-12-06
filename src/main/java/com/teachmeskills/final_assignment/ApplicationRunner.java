@@ -6,6 +6,7 @@ import com.teachmeskills.final_assignment.exception.WrongAuthException;
 import com.teachmeskills.final_assignment.exception.WrongFileException;
 import com.teachmeskills.final_assignment.log.LoggerService;
 import com.teachmeskills.final_assignment.authentication.Authentication;
+import com.teachmeskills.final_assignment.model.statistic.Statistic;
 import com.teachmeskills.final_assignment.utils.Constants;
 import com.teachmeskills.final_assignment.validator.Validator;
 import com.teachmeskills.final_assignment.session.SessionManager;
@@ -65,11 +66,11 @@ public class ApplicationRunner {
                             }
                         }
 
-                        Validator parser = new Validator();
 
                         try {
+                            Validator parser = new Validator();
                             parser.validationFile(directoryPath, sessionClient1);
-                            S3Uploader.s3();//AWS Uploader service
+                           //S3Uploader.s3();//AWS Uploader service
                         } catch (WrongFileException e) {
                             LoggerService.logError("File is not reading: " + e.getMessage() + Constants.MESSAGE_CODE_ERROR + e.getCodeError());
                         }

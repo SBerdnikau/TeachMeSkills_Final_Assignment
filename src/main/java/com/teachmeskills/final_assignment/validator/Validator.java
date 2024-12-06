@@ -17,15 +17,19 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.stream.Stream;
 
 public class Validator {
 
-    public void validationFile(String pathDirectory, SessionManager session) throws WrongFileException {
+    public Validator() {
+    }
 
+    public void validationFile(String pathDirectory, SessionManager session) throws WrongFileException {
         if (session.isSessionValid()){
 
             LoggerService.logInfo(Constants.MESSAGE_VALIDATION_DIR);
@@ -70,7 +74,7 @@ public class Validator {
         }
     }
 
-    private static void parserFile(String path, Statistic statistics) throws WrongParseException {
+    private void parserFile(String path, Statistic statistics) throws WrongParseException {
         try {
            List<String> lines = Files.readAllLines(Paths.get(path));
            Pattern checkPattern = Pattern.compile(Constants.CHECK_REGEX);
@@ -78,32 +82,40 @@ public class Validator {
            Pattern orderPattern = Pattern.compile(Constants.ORDER_REGEX);
 
            for (String line : lines){
-               LoggerService.logInfo("Checking check file:" + line);
-               Matcher checkMatcher = checkPattern.matcher(line);
-               if (checkMatcher.find()) {
-                    statistics.addCheck(new Check(Double.parseDouble(checkMatcher.group(1).replace(",", "."))));
-                    Check.countCheck++;
-                }
 
-               Matcher invoiceMatcher = invoicePattern.matcher(line);
-               LoggerService.logInfo("Checking invoice file:" + line);
-               if (invoiceMatcher.find()) {
-                    statistics.addInvoice(new Invoice(Double.parseDouble(invoiceMatcher.group(1))));
-                    Invoice.countInvoice++;
+               if (line.contains("total")|| line.contains("Total")) {
+                   LoggerService.logInfo("Checking check file:" + line);
+                   Matcher checkMatcher = checkPattern.matcher(line);
+                   if (checkMatcher.find()) {
+                       statistics.addCheck(new Check(Double.parseDouble(checkMatcher.group(1).replace(",", "."))));
+                       Check.countCheck++;
+                       System.out.println("Result -> " + checkMatcher.hasMatch());
+                   }
+
+                   Matcher invoiceMatcher = invoicePattern.matcher(line);
+                  LoggerService.logInfo("Checking invoice file:" + line);
+                   if (invoiceMatcher.find()) {
+                       statistics.addInvoice(new Invoice(Double.parseDouble(invoiceMatcher.group(1).replace(",", ""))));
+                       Invoice.countInvoice++;
+                       System.out.println("Result -> " + invoiceMatcher.hasMatch());
+                   }
+
+                   Matcher orderMatcher = orderPattern.matcher(line);
+                  LoggerService.logInfo("Checking order file:" + line);
+                   if (orderMatcher.find()) {
+                       statistics.addOrder(new Order(Double.parseDouble(orderMatcher.group(1).replace(",", ""))));
+                       Order.countOrder++;
+                       System.out.println("Result -> " + orderMatcher.hasMatch());
+                   }
+
+               }else {
+                   System.out.println("Incorrect format pattern line: " + line);
                }
 
-               Matcher orderMatcher = orderPattern.matcher(line);
-               LoggerService.logInfo("Checking order file:" + line);
-               if (orderMatcher.find()) {
-                    statistics.addOrder(new Order(Double.parseDouble(orderMatcher.group(1).replace(",", ""))));
-                    Order.countOrder++;
-               }
            }
-
         } catch (IOException e) {
             LoggerService.logError("The file is not readable " + e.getMessage());
             throw new WrongParseException("Error reading from file", Constants.ERROR_CODE_VALID);
         }
-
     }
 }

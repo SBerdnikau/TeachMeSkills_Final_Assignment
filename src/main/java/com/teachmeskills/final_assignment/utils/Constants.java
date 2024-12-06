@@ -15,8 +15,8 @@ public interface Constants {
     String PATH_TO_QRCODE =  "src/main/resources/qrcode/QRCode.png";
 
     String CHECK_REGEX = "Bill total amount EURO\\s*([0-9]*[.,][0-9]+)";
-    String INVOICE_REGEX = "Total amount\\s*(\\d+)\\$";
-    String ORDER_REGEX = "Order Total\\s*(\\d{1,3})(,\\d{3})*\\.(\\d{2})";
+    String INVOICE_REGEX = "(?:Total Amount|Total amount)\\s*[\\$]?(\\d{1,3}(?:,\\d{3})*(?:\\.\\d{2})?|\\d+(?:\\.\\d{2})?)";
+    String ORDER_REGEX = "Order Total\\s+([\\d\\s,]+\\.\\d{2})";
 
     String KEY_S3_NAME_FILE_REPORT = "statistic.txt";
     String KEY_2FA = "QDWSM3OYBPGTEVSPB5FKVDM3CSNCWHVK";

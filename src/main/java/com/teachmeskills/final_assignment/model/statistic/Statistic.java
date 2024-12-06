@@ -35,7 +35,7 @@ public class Statistic {
                 String.format(Constants.DELIMITER_2) +
                 String.format("\nTotal Check Amount:\t\t|\t%.2f\t\t|\t%d", totalCheckAmount, Check.countCheck) +
                 String.format("\nTotal Invoice Amount:\t|\t%.2f\t\t\t|\t%d", totalInvoiceAmount, Invoice.countInvoice) +
-                String.format("\nTotal Order Amount:\t\t|\t%.2f\t\t\t|\t%d\n", totalOrderAmount, Order.countOrder) +
+                String.format("\nTotal Order Amount:\t\t|\t%.2f\t\t|\t%d\n", totalOrderAmount, Order.countOrder) +
                 String.format(Constants.DELIMITER_1);
         System.out.println(statistic);
     }
@@ -48,7 +48,7 @@ public class Statistic {
                     String.format(Constants.DELIMITER_2) +
                     String.format("\nTotal Check Amount:\t\t|\t%.2f\t\t|\t%d", totalCheckAmount, Check.countCheck) +
                     String.format("\nTotal Invoice Amount:\t|\t%.2f\t\t\t|\t%d", totalInvoiceAmount, Invoice.countInvoice) +
-                    String.format("\nTotal Order Amount:\t\t|\t%.2f\t\t\t|\t%d\n", totalOrderAmount, Order.countOrder) +
+                    String.format("\nTotal Order Amount:\t\t|\t%.2f\t\t|\t%d\n", totalOrderAmount, Order.countOrder) +
                     String.format(Constants.DELIMITER_1));
             writer.newLine();
             LoggerService.logInfo("The file is was recorded successful");
