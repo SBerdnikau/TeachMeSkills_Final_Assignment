@@ -1,4 +1,4 @@
-package com.teachmeskills.final_assignment.validator;
+package com.teachmeskills.final_assignment.parser;
 
 import com.teachmeskills.final_assignment.exception.WrongParseException;
 import com.teachmeskills.final_assignment.exception.WrongFileException;
@@ -17,19 +17,15 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.util.HashSet;
 import java.util.List;
-import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.stream.Stream;
 
-public class Validator {
+public class Parser {
 
-    public Validator() {
-    }
+    public void processFile(String pathDirectory, SessionManager session) throws WrongFileException {
 
-    public void validationFile(String pathDirectory, SessionManager session) throws WrongFileException {
         if (session.isSessionValid()){
 
             LoggerService.logInfo(Constants.MESSAGE_VALIDATION_DIR);
@@ -37,7 +33,7 @@ public class Validator {
             File rootDir = new File(pathDirectory);
             if (!rootDir.exists() || !rootDir.isDirectory()) {
                 LoggerService.logError("Directory does not exist.");
-                return;
+                throw new WrongFileException("Directory does not exist.", Constants.ERROR_CODE_FILE);
             }
 
             Statistic statistics = new Statistic();
@@ -52,7 +48,7 @@ public class Validator {
                         .filter(path -> path.getFileName().toString().contains(documentYear) && path.getFileName().toString().endsWith(documentExtension))
                         .forEach(path -> {
                             try {
-                                parserFile(path.toString(), statistics);
+                                processFile(path.toString(), statistics);
                             } catch (WrongParseException e) {
                                 LoggerService.logError("File not reading: " + e.getMessage() + " Error code: " + e.getCodeError());
                             }
@@ -74,7 +70,7 @@ public class Validator {
         }
     }
 
-    private void parserFile(String path, Statistic statistics) throws WrongParseException {
+    private static void processFile(String path, Statistic statistic) throws WrongParseException {
         try {
            List<String> lines = Files.readAllLines(Paths.get(path));
            Pattern checkPattern = Pattern.compile(Constants.CHECK_REGEX);
@@ -84,32 +80,33 @@ public class Validator {
            for (String line : lines){
 
                if (line.contains("total")|| line.contains("Total")) {
+
                    LoggerService.logInfo("Checking check file:" + line);
                    Matcher checkMatcher = checkPattern.matcher(line);
                    if (checkMatcher.find()) {
-                       statistics.addCheck(new Check(Double.parseDouble(checkMatcher.group(1).replace(",", "."))));
+                       statistic.addCheck(new Check(Double.parseDouble(checkMatcher.group(1).replace(",", "."))));
                        Check.countCheck++;
-                       System.out.println("Result -> " + checkMatcher.hasMatch());
+                       LoggerService.logInfo("Result checking is -> " + checkMatcher.hasMatch());
                    }
 
+                   LoggerService.logInfo("Checking invoice file:" + line);
                    Matcher invoiceMatcher = invoicePattern.matcher(line);
-                  LoggerService.logInfo("Checking invoice file:" + line);
                    if (invoiceMatcher.find()) {
-                       statistics.addInvoice(new Invoice(Double.parseDouble(invoiceMatcher.group(1).replace(",", ""))));
+                       statistic.addInvoice(new Invoice(Double.parseDouble(invoiceMatcher.group(1).replace(",", ""))));
                        Invoice.countInvoice++;
-                       System.out.println("Result -> " + invoiceMatcher.hasMatch());
+                       LoggerService.logInfo("Result checking is -> " + invoiceMatcher.hasMatch());
                    }
 
+                   LoggerService.logInfo("Checking order file:" + line);
                    Matcher orderMatcher = orderPattern.matcher(line);
-                  LoggerService.logInfo("Checking order file:" + line);
                    if (orderMatcher.find()) {
-                       statistics.addOrder(new Order(Double.parseDouble(orderMatcher.group(1).replace(",", ""))));
+                       statistic.addOrder(new Order(Double.parseDouble(orderMatcher.group(1).replace(",", ""))));
                        Order.countOrder++;
-                       System.out.println("Result -> " + orderMatcher.hasMatch());
+                       LoggerService.logInfo("Result checking is -> " + orderMatcher.hasMatch());
                    }
 
                }else {
-                   System.out.println("Incorrect format pattern line: " + line);
+                   LoggerService.logInfo("Incorrect format pattern line: " + line);
                }
 
            }
@@ -117,5 +114,6 @@ public class Validator {
             LoggerService.logError("The file is not readable " + e.getMessage());
             throw new WrongParseException("Error reading from file", Constants.ERROR_CODE_VALID);
         }
+
     }
 }

@@ -24,7 +24,7 @@ public class S3Uploader {
         String accessKey = PropertiesManager.loadProperties().getProperty("access.key");
         String secretKey = PropertiesManager.loadProperties().getProperty("secret.key");
         String bucketName = PropertiesManager.loadProperties().getProperty("bucketName");
-        String regionName = PropertiesManager.loadProperties().getProperty("eu.north.1");
+        String regionName = PropertiesManager.loadProperties().getProperty("regionName");
 
         // TODO в кавычки вставить название файла с расширением
         String key = Constants.KEY_S3_NAME_FILE_REPORT;
@@ -45,8 +45,8 @@ public class S3Uploader {
                     .key(key)
                     .build();
 
-            response = s3Client.putObject(request, Paths.get(file.toURI()));
-            System.out.println(Constants.MESSAGE_SUCCESS_UPLOAD_TO_AWS + response.eTag());
+//            response = s3Client.putObject(request, Paths.get(file.toURI()));
+//            System.out.println(Constants.MESSAGE_SUCCESS_UPLOAD_TO_AWS + response.eTag());
         }catch (Exception e){
             System.out.println("General exception connection or uploaded" + e.getMessage());
         }
