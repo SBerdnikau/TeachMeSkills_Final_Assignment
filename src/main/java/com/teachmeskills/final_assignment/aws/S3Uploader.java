@@ -1,7 +1,7 @@
 package com.teachmeskills.final_assignment.aws;
 
 
-import com.teachmeskills.final_assignment.exception.WrongFileException;
+import com.teachmeskills.final_assignment.exception.InvalidFileException;
 import com.teachmeskills.final_assignment.properties.PropertiesManager;
 import com.teachmeskills.final_assignment.utils.Constants;
 import software.amazon.awssdk.auth.credentials.AwsBasicCredentials;
@@ -13,14 +13,13 @@ import software.amazon.awssdk.services.s3.model.PutObjectRequest;
 import software.amazon.awssdk.services.s3.model.PutObjectResponse;
 
 import java.io.File;
-import java.nio.file.Paths;
 
 /**
  *  class for uploading data to AWS S3 server
  */
 public class S3Uploader {
 
-    public static void s3() throws WrongFileException {
+    public static void s3() throws InvalidFileException {
         String accessKey = PropertiesManager.loadProperties().getProperty("access.key");
         String secretKey = PropertiesManager.loadProperties().getProperty("secret.key");
         String bucketName = PropertiesManager.loadProperties().getProperty("bucketName");

@@ -1,15 +1,16 @@
 package com.teachmeskills.final_assignment.model.statistic;
 
-import com.teachmeskills.final_assignment.exception.WrongStatisticException;
-import com.teachmeskills.final_assignment.log.LoggerService;
-import com.teachmeskills.final_assignment.model.check.Check;
-import com.teachmeskills.final_assignment.model.invoice.Invoice;
-import com.teachmeskills.final_assignment.model.order.Order;
+import com.teachmeskills.final_assignment.exception.InvalidWriteFileException;
+import com.teachmeskills.final_assignment.log.Logger;
+import com.teachmeskills.final_assignment.model.check.CheckImpl;
+import com.teachmeskills.final_assignment.model.invoice.InvoiceImpl;
+import com.teachmeskills.final_assignment.model.order.OrderImpl;
 import com.teachmeskills.final_assignment.utils.Constants;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.util.Objects;
 
 public class Statistic {
 
@@ -17,45 +18,61 @@ public class Statistic {
     private double totalInvoiceAmount;
     private double totalOrderAmount;
 
-    public void addCheck(Check check) {
+    public void addCheck(CheckImpl check) {
         totalCheckAmount += check.getTotalAmount();
     }
 
-    public void addInvoice(Invoice invoice) {
+    public void addInvoice(InvoiceImpl invoice) {
         totalInvoiceAmount += invoice.getTotalAmount();
     }
 
-    public void addOrder(Order order) {
+    public void addOrder(OrderImpl order) {
         totalOrderAmount += order.getTotalAmount();
     }
 
     public void printStatistics() {
         String statistic = String.format(Constants.HEAD_STATISTIC) +
-                String.format("\nType\t\t\t\t\t|\tTotal amount\t|\tTotal count files\n") +
+                String.format("\nType\t\t\t\t\t|\tTotal amount\n") +
                 String.format(Constants.DELIMITER_2) +
-                String.format("\nTotal Check Amount:\t\t|\t%.2f\t\t|\t%d", totalCheckAmount, Check.countCheck) +
-                String.format("\nTotal Invoice Amount:\t|\t%.2f\t\t\t|\t%d", totalInvoiceAmount, Invoice.countInvoice) +
-                String.format("\nTotal Order Amount:\t\t|\t%.2f\t\t|\t%d\n", totalOrderAmount, Order.countOrder) +
+                String.format("\nTotal Check Amount:\t\t|\t%.2f", totalCheckAmount) +
+                String.format("\nTotal Invoice Amount:\t|\t%.2f", totalInvoiceAmount) +
+                String.format("\nTotal Order Amount:\t\t|\t%.2f\n", totalOrderAmount) +
                 String.format(Constants.DELIMITER_1);
         System.out.println(statistic);
     }
 
-    public void writeStatistic(String fileName) throws WrongStatisticException {
-        LoggerService.logInfo("Saving to file");
-        try (BufferedWriter writer = new BufferedWriter(new FileWriter(fileName))) {
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Statistic statistic = (Statistic) o;
+        return Double.compare(totalCheckAmount, statistic.totalCheckAmount) == 0 && Double.compare(totalInvoiceAmount, statistic.totalInvoiceAmount) == 0 && Double.compare(totalOrderAmount, statistic.totalOrderAmount) == 0;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(totalCheckAmount, totalInvoiceAmount, totalOrderAmount);
+    }
+
+    public void writeStatistic() throws InvalidWriteFileException {
+        Logger.logInfo("Saving to file");
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter(Constants.PATH_TO_STATISTIC_FILE))) {
              writer.write(String.format(Constants.HEAD_STATISTIC) +
-                    String.format("\nType\t\t\t\t\t|\tTotal amount\t|\tTotal count files\n") +
+                    String.format("\nType\t\t\t\t\t|\tTotal amount\n") +
                     String.format(Constants.DELIMITER_2) +
-                    String.format("\nTotal Check Amount:\t\t|\t%.2f\t\t|\t%d", totalCheckAmount, Check.countCheck) +
-                    String.format("\nTotal Invoice Amount:\t|\t%.2f\t\t\t|\t%d", totalInvoiceAmount, Invoice.countInvoice) +
-                    String.format("\nTotal Order Amount:\t\t|\t%.2f\t\t|\t%d\n", totalOrderAmount, Order.countOrder) +
+                    String.format("\nTotal Check Amount:\t\t|\t%.2f", totalCheckAmount) +
+                    String.format("\nTotal Invoice Amount:\t|\t%.2f", totalInvoiceAmount) +
+                    String.format("\nTotal Order Amount:\t\t|\t%.2f\n", totalOrderAmount) +
                     String.format(Constants.DELIMITER_1));
             writer.newLine();
-            LoggerService.logInfo("The file is was recorded successful");
+            Logger.logInfo("The file is was recorded successful");
         } catch (IOException e) {
-            LoggerService.logError("Directory not found, file not was recorded");
-            throw new WrongStatisticException("File statistic not was recorded\t" , Constants.ERROR_CODE_STATISTIC);
+            //Logger.logException("Directory not found, file not was recorded");
+            Logger.logException(e);
+            throw new InvalidWriteFileException("File statistic not was recorded\t" , Constants.ERROR_CODE_STATISTIC);
         }
+
+
     }
 
 }

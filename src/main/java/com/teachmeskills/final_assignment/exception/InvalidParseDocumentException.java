@@ -1,13 +1,13 @@
 package com.teachmeskills.final_assignment.exception;
 
-public class WrongParseException extends Exception{
+public class InvalidParseDocumentException extends Exception{
     private int codeError;
 
-    public WrongParseException(String message) {
+    public InvalidParseDocumentException(String message) {
         super(message);
     }
 
-    public WrongParseException(String message, int codeError) {
+    public InvalidParseDocumentException(String message, int codeError) {
         super(message);
         this.codeError = codeError;
     }

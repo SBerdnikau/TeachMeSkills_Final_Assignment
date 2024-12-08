@@ -1,7 +1,7 @@
 ====================FINANCIAL STATISTICS===========================
-Type					|	Total amount	|	Total count files
+Type					|	Total amount
 -------------------------------------------------------------------
-Total Check Amount:		|	19638,94		|	12
-Total Invoice Amount:	|	5874,35			|	22
-Total Order Amount:		|	21635,48		|	10
+Total Check Amount:		|	19638,94
+Total Invoice Amount:	|	5874,35
+Total Order Amount:		|	12042,37
 ===================================================================

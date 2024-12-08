@@ -1,0 +1,5 @@
+
+
+[ERROR]		08-12-2024 20:30:33		Incorrect login or password entered 
+[Ljava.lang.StackTraceElement;@5649fd9b	com.teachmeskills.final_assignment.authentication.Authentication.auth(Authentication.java:46)
+	com.teachmeskills.final_assignment.ApplicationRunner.main(ApplicationRunner.java:64)

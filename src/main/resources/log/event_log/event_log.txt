@@ -1,0 +1,201 @@
+[INFO]		08-12-2024 20:27:48		Start program
+[INFO]		08-12-2024 20:27:48		QR code created
+[INFO]		08-12-2024 20:27:48		Waiting for two factor authentication...
+[INFO]		08-12-2024 20:28:09		Logged in successfully
+[INFO]		08-12-2024 20:28:09		-------------------------------------------------------------------
+[INFO]		08-12-2024 20:28:13		Login is valid
+[INFO]		08-12-2024 20:28:19		Password is valid
+[INFO]		08-12-2024 20:28:19		Received user data
+[INFO]		08-12-2024 20:28:19		Decrypting login: admin
+[INFO]		08-12-2024 20:28:19		Decrypted password: TMC32Java
+[INFO]		08-12-2024 20:28:19		Start checking login
+[INFO]		08-12-2024 20:28:19		Finish checking login is true
+[INFO]		08-12-2024 20:28:19		Start checking password
+[INFO]		08-12-2024 20:28:19		Finish checking password is true
+[INFO]		08-12-2024 20:28:19		User authorization successful
+[INFO]		08-12-2024 20:28:19		-------------------------------------------------------------------
+[INFO]		08-12-2024 20:28:19		Session created com.teachmeskills.final_assignment.session.SessionManager@617faa95
+[INFO]		08-12-2024 20:28:19		Enter path to directory
+[INFO]		08-12-2024 20:28:21		Processing check files...
+[INFO]		08-12-2024 20:28:21		Skipping invalid file: 2021_Electric_Bill_01.txt
+[INFO]		08-12-2024 20:28:21		Skipping invalid file: 2021_Electric_Bill_02.txt
+[INFO]		08-12-2024 20:28:21		Skipping invalid file: 2021_Electric_Bill_03.txt
+[INFO]		08-12-2024 20:28:21		Skipping invalid file: 2021_Electric_Bill_04.txt
+[INFO]		08-12-2024 20:28:21		Skipping invalid file: 2021_Electric_Bill_05.txt
+[INFO]		08-12-2024 20:28:21		Skipping invalid file: 2021_Electric_Bill_06.txt
+[INFO]		08-12-2024 20:28:21		Skipping invalid file: 2021_Electric_Bill_07.txt
+[INFO]		08-12-2024 20:28:21		Skipping invalid file: 2021_Electric_Bill_08.txt
+[INFO]		08-12-2024 20:28:21		Skipping invalid file: 2021_Electric_Bill_09.txt
+[INFO]		08-12-2024 20:28:21		Skipping invalid file: 2021_Electric_Bill_10.txt
+[INFO]		08-12-2024 20:28:21		Skipping invalid file: 2021_Electric_Bill_11.txt
+[INFO]		08-12-2024 20:28:21		Skipping invalid file: 2021_Electric_Bill_12.txt
+[INFO]		08-12-2024 20:28:21		Skipping invalid file: 2022_Electric_Bill_01.txt
+[INFO]		08-12-2024 20:28:21		Skipping invalid file: 2022_Electric_Bill_02.txt
+[INFO]		08-12-2024 20:28:21		Skipping invalid file: 2022_Electric_Bill_03.txt
+[INFO]		08-12-2024 20:28:21		Skipping invalid file: 2022_Electric_Bill_04.txt
+[INFO]		08-12-2024 20:28:21		Skipping invalid file: 2022_Electric_Bill_05.txt
+[INFO]		08-12-2024 20:28:21		Skipping invalid file: 2022_Electric_Bill_06.txt
+[INFO]		08-12-2024 20:28:21		Skipping invalid file: 2022_Electric_Bill_07.txt
+[INFO]		08-12-2024 20:28:21		Skipping invalid file: 2022_Electric_Bill_08.txt
+[INFO]		08-12-2024 20:28:21		Skipping invalid file: 2022_Electric_Bill_09.txt
+[INFO]		08-12-2024 20:28:21		Skipping invalid file: 2022_Electric_Bill_10.txt
+[INFO]		08-12-2024 20:28:21		Skipping invalid file: 2022_Electric_Bill_11.txt
+[INFO]		08-12-2024 20:28:21		Skipping invalid file: 2022_Electric_Bill_12.txt
+[INFO]		08-12-2024 20:28:21		Skipping invalid file: 2023_Electric_Bill_01.txt
+[INFO]		08-12-2024 20:28:21		Skipping invalid file: 2023_Electric_Bill_02.txt
+[INFO]		08-12-2024 20:28:21		Skipping invalid file: 2023_Electric_Bill_03.txt
+[INFO]		08-12-2024 20:28:21		Skipping invalid file: 2023_Electric_Bill_04.txt
+[INFO]		08-12-2024 20:28:21		Skipping invalid file: 2023_Electric_Bill_05.txt
+[INFO]		08-12-2024 20:28:21		Skipping invalid file: 2023_Electric_Bill_06.txt
+[INFO]		08-12-2024 20:28:21		Skipping invalid file: 2023_Electric_Bill_07.txt
+[INFO]		08-12-2024 20:28:21		Skipping invalid file: 2023_Electric_Bill_08.txt
+[INFO]		08-12-2024 20:28:21		Skipping invalid file: 2023_Electric_Bill_09.txt
+[INFO]		08-12-2024 20:28:21		Skipping invalid file: 2023_Electric_Bill_10.txt
+[INFO]		08-12-2024 20:28:21		Skipping invalid file: 2023_Electric_Bill_11.txt
+[INFO]		08-12-2024 20:28:21		Skipping invalid file: 2023_Electric_Bill_12.txt
+[INFO]		08-12-2024 20:28:21		Result checking is  true
+[INFO]		08-12-2024 20:28:21		Result checking is  true
+[INFO]		08-12-2024 20:28:21		Result checking is  true
+[INFO]		08-12-2024 20:28:21		Result checking is  true
+[INFO]		08-12-2024 20:28:21		Result checking is  true
+[INFO]		08-12-2024 20:28:21		Result checking is  true
+[INFO]		08-12-2024 20:28:21		Result checking is  true
+[INFO]		08-12-2024 20:28:21		Result checking is  true
+[INFO]		08-12-2024 20:28:21		Result checking is  true
+[INFO]		08-12-2024 20:28:21		Result checking is  true
+[INFO]		08-12-2024 20:28:21		Result checking is  true
+[INFO]		08-12-2024 20:28:21		Result checking is  true
+[INFO]		08-12-2024 20:28:21		Skipping invalid file: ElectricBill.pdf
+[INFO]		08-12-2024 20:28:21		Skipping invalid file: supplier_bill.pdf
+[INFO]		08-12-2024 20:28:21		Processing invoices files...
+[INFO]		08-12-2024 20:28:21		Skipping invalid file: aircraft-bill-of-sale.pdf
+[INFO]		08-12-2024 20:28:21		Skipping invalid file: artist-invoice.pdf
+[INFO]		08-12-2024 20:28:21		Skipping invalid file: handyman-contractor-invoice.pdf
+[INFO]		08-12-2024 20:28:21		Skipping invalid file: hvac-invoice.pdf
+[INFO]		08-12-2024 20:28:21		Skipping invalid file: INVOICE_01_2021.txt
+[INFO]		08-12-2024 20:28:22		Skipping invalid file: invoice_01_2021_realhandy.txt
+[INFO]		08-12-2024 20:28:22		Skipping invalid file: INVOICE_01_2022.txt
+[INFO]		08-12-2024 20:28:22		Skipping invalid file: INVOICE_01_2023.txt
+[INFO]		08-12-2024 20:28:22		Skipping invalid file: invoice_01_2023.xlsx
+[INFO]		08-12-2024 20:28:22		Skipping invalid file: invoice_01_2023_realhandy.txt
+[INFO]		08-12-2024 20:28:22		Result checking is  true
+[INFO]		08-12-2024 20:28:22		Skipping invalid file: invoice_01_2024.xlsx
+[INFO]		08-12-2024 20:28:22		Result checking is  true
+[INFO]		08-12-2024 20:28:22		Skipping invalid file: invoice_02_2022_realhandy.txt
+[INFO]		08-12-2024 20:28:22		Skipping invalid file: invoice_02_2023.docx
+[INFO]		08-12-2024 20:28:22		Skipping invalid file: INVOICE_02_2023.txt
+[INFO]		08-12-2024 20:28:22		Skipping invalid file: invoice_02_2023_realhandy.txt
+[INFO]		08-12-2024 20:28:22		Skipping invalid file: invoice_02_2024.docx
+[INFO]		08-12-2024 20:28:22		Result checking is  true
+[INFO]		08-12-2024 20:28:22		Result checking is  true
+[INFO]		08-12-2024 20:28:22		Skipping invalid file: INVOICE_03_2023.txt
+[INFO]		08-12-2024 20:28:22		Skipping invalid file: invoice_03_2023_realhandy.txt
+[INFO]		08-12-2024 20:28:22		Result checking is  true
+[INFO]		08-12-2024 20:28:22		Result checking is  true
+[INFO]		08-12-2024 20:28:22		Skipping invalid file: INVOICE_04_2023.txt
+[INFO]		08-12-2024 20:28:22		Skipping invalid file: invoice_04_2023_realhandy.txt
+[INFO]		08-12-2024 20:28:22		Incorrect format : INVOICE
+
+East Repair
+
+Invoice Date 15/04/2023
+Due Date 26/04/2023
+
+
+1. Repair tools set model 17.78 33
+
+
+Total AMOUNT 33$
+[INFO]		08-12-2024 20:28:22		Result checking is  true
+[INFO]		08-12-2024 20:28:22		Skipping invalid file: INVOICE_05_2023.txt
+[INFO]		08-12-2024 20:28:22		Skipping invalid file: invoice_05_2023_realhandy.txt
+[INFO]		08-12-2024 20:28:22		Incorrect format : INVOICE
+
+East Repair
+
+Invoice Date 15/05/2023
+Due Date 26/05/2023
+
+
+1. Repair tools set 789 model 337.78
+
+
+Total   amount 337.78$
+[INFO]		08-12-2024 20:28:22		Result checking is  true
+[INFO]		08-12-2024 20:28:22		Skipping invalid file: INVOICE_06_2023.txt
+[INFO]		08-12-2024 20:28:22		Skipping invalid file: invoice_06_2023_realhandy.txt
+[INFO]		08-12-2024 20:28:22		Result checking is  true
+[INFO]		08-12-2024 20:28:22		Result checking is  true
+[INFO]		08-12-2024 20:28:22		Skipping invalid file: INVOICE_07_2023.txt
+[INFO]		08-12-2024 20:28:22		Skipping invalid file: invoice_07_2023_realhandy.txt
+[INFO]		08-12-2024 20:28:22		Result checking is  true
+[INFO]		08-12-2024 20:28:22		Result checking is  true
+[INFO]		08-12-2024 20:28:22		Skipping invalid file: invoice_08_2022_realhandy.txt
+[INFO]		08-12-2024 20:28:22		Skipping invalid file: INVOICE_08_2023.txt
+[INFO]		08-12-2024 20:28:22		Skipping invalid file: invoice_08_2023_realhandy.txt
+[INFO]		08-12-2024 20:28:22		Result checking is  true
+[INFO]		08-12-2024 20:28:22		Result checking is  true
+[INFO]		08-12-2024 20:28:22		Skipping invalid file: invoice_09_2022_realhandy.txt
+[INFO]		08-12-2024 20:28:22		Skipping invalid file: INVOICE_09_2023.txt
+[INFO]		08-12-2024 20:28:22		Skipping invalid file: invoice_09_2023_realhandy.txt
+[INFO]		08-12-2024 20:28:22		Result checking is  true
+[INFO]		08-12-2024 20:28:22		Result checking is  true
+[INFO]		08-12-2024 20:28:22		Skipping invalid file: INVOICE_10_2022.txt
+[INFO]		08-12-2024 20:28:22		Skipping invalid file: INVOICE_10_2023.txt
+[INFO]		08-12-2024 20:28:22		Skipping invalid file: invoice_10_2023_realhandy.txt
+[INFO]		08-12-2024 20:28:22		Result checking is  true
+[INFO]		08-12-2024 20:28:22		Result checking is  true
+[INFO]		08-12-2024 20:28:22		Skipping invalid file: INVOICE_11_2022.txt
+[INFO]		08-12-2024 20:28:22		Skipping invalid file: INVOICE_11_2023.txt
+[INFO]		08-12-2024 20:28:22		Skipping invalid file: invoice_11_2023_realhandy.txt
+[INFO]		08-12-2024 20:28:22		Result checking is  true
+[INFO]		08-12-2024 20:28:22		Result checking is  true
+[INFO]		08-12-2024 20:28:22		Skipping invalid file: INVOICE_12_2021.txt
+[INFO]		08-12-2024 20:28:22		Skipping invalid file: INVOICE_12_2023.txt
+[INFO]		08-12-2024 20:28:22		Skipping invalid file: invoice_12_2023_realhandy.txt
+[INFO]		08-12-2024 20:28:22		Result checking is  true
+[INFO]		08-12-2024 20:28:22		Result checking is  true
+[INFO]		08-12-2024 20:28:22		Processing orders files...
+[INFO]		08-12-2024 20:28:22		Skipping invalid file: 2021_ORDER_07.txt
+[INFO]		08-12-2024 20:28:22		Skipping invalid file: 2022_order_08.txt
+[INFO]		08-12-2024 20:28:22		Skipping invalid file: 2022_Order_09.txt
+[INFO]		08-12-2024 20:28:22		Skipping invalid file: 2023_ODDER_01.txt
+[INFO]		08-12-2024 20:28:22		Skipping invalid file: 2023_ORDER_02.txt
+[INFO]		08-12-2024 20:28:22		Skipping invalid file: 2023_ORDER_03.txt
+[INFO]		08-12-2024 20:28:22		Skipping invalid file: 2023_Order_04.txt
+[INFO]		08-12-2024 20:28:22		Skipping invalid file: 2023_ORDER_05.txt
+[INFO]		08-12-2024 20:28:22		Skipping invalid file: 2023_ORDER_06.txt
+[INFO]		08-12-2024 20:28:22		Skipping invalid file: 2023_ORDER_07.txt
+[INFO]		08-12-2024 20:28:22		Skipping invalid file: 2023_order_08.txt
+[INFO]		08-12-2024 20:28:22		File does not match known formats: 2024_ODDER_01.txt
+[INFO]		08-12-2024 20:28:22		File already processed: 2024_ORDER_01.txt
+[INFO]		08-12-2024 20:28:22		Result checking is  true
+[INFO]		08-12-2024 20:28:22		Result checking is  true
+[INFO]		08-12-2024 20:28:22		Result checking is  true
+[INFO]		08-12-2024 20:28:22		Result checking is  true
+[INFO]		08-12-2024 20:28:22		Result checking is  true
+[INFO]		08-12-2024 20:28:22		File does not match known formats: 2024_order_11.txt
+[INFO]		08-12-2024 20:28:22		Result checking is  true
+[INFO]		08-12-2024 20:28:22		File already processed: 2024_URDER_12.txt
+[INFO]		08-12-2024 20:28:22		Show statistic to the console
+[INFO]		08-12-2024 20:28:22		Save to file report
+[INFO]		08-12-2024 20:28:22		Saving to file
+[INFO]		08-12-2024 20:28:22		The file is was recorded successful
+[INFO]		08-12-2024 20:28:22		Upload file report to AWS server
+[INFO]		08-12-2024 20:28:22		Finish program
+[INFO]		08-12-2024 20:30:02		Start program
+[INFO]		08-12-2024 20:30:02		QR code created
+[INFO]		08-12-2024 20:30:02		Waiting for two factor authentication...
+[INFO]		08-12-2024 20:30:16		Logged in successfully
+[INFO]		08-12-2024 20:30:16		-------------------------------------------------------------------
+[INFO]		08-12-2024 20:30:24		Login is valid
+[INFO]		08-12-2024 20:30:33		Password is valid
+[INFO]		08-12-2024 20:30:33		Received user data
+[INFO]		08-12-2024 20:30:33		Decrypting login: 11111111
+[INFO]		08-12-2024 20:30:33		Decrypted password: TMC32Java
+[INFO]		08-12-2024 20:30:33		Start checking login
+[INFO]		08-12-2024 20:30:33		Finish checking login is false
+[INFO]		08-12-2024 20:30:33		Start checking password
+[INFO]		08-12-2024 20:30:33		Finish checking password is true
+[INFO]		08-12-2024 20:30:33		User authorization failed
+[INFO]		08-12-2024 20:30:33		===================================================================

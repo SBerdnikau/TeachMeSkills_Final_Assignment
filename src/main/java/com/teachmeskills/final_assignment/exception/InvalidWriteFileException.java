@@ -1,14 +1,13 @@
 package com.teachmeskills.final_assignment.exception;
 
-public class WrongFileException extends Exception{
-
+public class InvalidWriteFileException extends Exception{
     private int codeError;
 
-    public WrongFileException(String message) {
+    public InvalidWriteFileException(String message) {
         super(message);
     }
 
-    public WrongFileException(String message, int codeError) {
+    public InvalidWriteFileException(String message, int codeError) {
         super(message);
         this.codeError = codeError;
     }

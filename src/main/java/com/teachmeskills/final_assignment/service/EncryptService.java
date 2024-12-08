@@ -1,6 +1,6 @@
 package com.teachmeskills.final_assignment.service;
 
-import com.teachmeskills.final_assignment.log.LoggerService;
+import com.teachmeskills.final_assignment.log.Logger;
 import com.teachmeskills.final_assignment.utils.Constants;
 
 import java.util.Base64;
@@ -18,7 +18,6 @@ public class EncryptService {
     }
 
     public static String decrypt(String input){
-        LoggerService.logInfo(Constants.MESSAGE_DECRYPTING);
         byte[] bytes = Base64.getDecoder().decode(input.substring(20));
         return new String(bytes);
     }

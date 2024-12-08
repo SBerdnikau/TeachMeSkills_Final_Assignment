@@ -1,14 +1,14 @@
 package com.teachmeskills.final_assignment.exception;
 
-public class WrongLoggerException extends RuntimeException {
+public class InvalidFileException extends Exception{
 
     private int codeError;
 
-    public WrongLoggerException(String message) {
+    public InvalidFileException(String message) {
         super(message);
     }
 
-    public WrongLoggerException(String message, int codeError) {
+    public InvalidFileException(String message, int codeError) {
         super(message);
         this.codeError = codeError;
     }

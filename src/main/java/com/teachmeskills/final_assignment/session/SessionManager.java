@@ -1,7 +1,7 @@
 package com.teachmeskills.final_assignment.session;
 
-import com.teachmeskills.final_assignment.exception.WrongFileException;
-import com.teachmeskills.final_assignment.log.LoggerService;
+import com.teachmeskills.final_assignment.exception.InvalidFileException;
+import com.teachmeskills.final_assignment.log.Logger;
 import com.teachmeskills.final_assignment.properties.PropertiesManager;
 import com.teachmeskills.final_assignment.utils.Constants;
 
@@ -54,8 +54,9 @@ public class SessionManager {
             calendar.setTime(new Date());
             calendar.add(Calendar.MINUTE, sessionDuration);
             this.expDate = calendar.getTime();
-        } catch (WrongFileException e) {
-            LoggerService.logError("Error reading property file: " + e.getMessage() + Constants.MESSAGE_CODE_ERROR + e.getCodeError());
+        } catch (InvalidFileException e) {
+            Logger.logException(e);
+            //Logger.logException("Error reading property file: " + e.getMessage() + Constants.MESSAGE_CODE_ERROR + e.getCodeError());
         }
     }
 }

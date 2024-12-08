@@ -1,13 +1,14 @@
 package com.teachmeskills.final_assignment.exception;
 
-public class WrongStatisticException extends Exception{
+public class InvalidWriteLoggerException extends RuntimeException {
+
     private int codeError;
 
-    public WrongStatisticException(String message) {
+    public InvalidWriteLoggerException(String message) {
         super(message);
     }
 
-    public WrongStatisticException(String message, int codeError) {
+    public InvalidWriteLoggerException(String message, int codeError) {
         super(message);
         this.codeError = codeError;
     }
