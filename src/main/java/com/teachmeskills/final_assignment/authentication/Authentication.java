@@ -21,10 +21,11 @@ public class Authentication {
     public SessionManager auth(String login, String password) throws InvalidAuthException{
 
         MockStorage storageLikeDB = new MockStorage();
-        Logger.logInfo(Constants.MESSAGE_RECEIVED_USER_DATA);
 
+        Logger.logInfo(Constants.MESSAGE_RECEIVED_USER_DATA);
         Logger.logInfo("Decrypting login: " + login);
         String loginFromDB = EncryptService.decrypt(storageLikeDB.getLogin());
+
         Logger.logInfo("Decrypted password: " + password);
         String passwordFromDB = EncryptService.decrypt(storageLikeDB.getPassword());
 

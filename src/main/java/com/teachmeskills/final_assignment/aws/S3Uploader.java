@@ -2,6 +2,7 @@ package com.teachmeskills.final_assignment.aws;
 
 
 import com.teachmeskills.final_assignment.exception.InvalidFileException;
+import com.teachmeskills.final_assignment.log.Logger;
 import com.teachmeskills.final_assignment.properties.PropertiesManager;
 import com.teachmeskills.final_assignment.utils.Constants;
 import software.amazon.awssdk.auth.credentials.AwsBasicCredentials;
@@ -25,9 +26,7 @@ public class S3Uploader {
         String bucketName = PropertiesManager.loadProperties().getProperty("bucketName");
         String regionName = PropertiesManager.loadProperties().getProperty("regionName");
 
-        // TODO в кавычки вставить название файла с расширением
         String key = Constants.KEY_S3_NAME_FILE_REPORT;
-        // TODO полный путь к файлу
         File file = new File(Constants.PATH_TO_REPORT_FILE);
 
        AwsCredentials credentials = AwsBasicCredentials.create(accessKey, secretKey);
@@ -45,8 +44,10 @@ public class S3Uploader {
                     .build();
 
 //            response = s3Client.putObject(request, Paths.get(file.toURI()));
+//              Logger.logInfo("Uploading file " + file.getAbsolutePath());
 //            System.out.println(Constants.MESSAGE_SUCCESS_UPLOAD_TO_AWS + response.eTag());
         }catch (Exception e){
+            Logger.logException(e);
             System.out.println("General exception connection or uploaded" + e.getMessage());
         }
     }

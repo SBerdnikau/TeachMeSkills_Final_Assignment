@@ -2,7 +2,8 @@ package com.teachmeskills.final_assignment;
 
 import com.teachmeskills.final_assignment.authentication.TwoFactorAuthentication;
 import com.teachmeskills.final_assignment.exception.InvalidAuthException;
-import com.teachmeskills.final_assignment.exception.InvalidFileException;
+import com.teachmeskills.final_assignment.exception.InvalidLoginException;
+import com.teachmeskills.final_assignment.exception.InvalidPasswordException;
 import com.teachmeskills.final_assignment.log.Logger;
 import com.teachmeskills.final_assignment.authentication.Authentication;
 import com.teachmeskills.final_assignment.model.statistic.Statistic;
@@ -14,14 +15,11 @@ import com.teachmeskills.final_assignment.session.SessionManager;
 import java.util.Scanner;
 
 public class ApplicationRunner {
-    public static void main(String[] args) throws InvalidFileException {
+    public static void main(String[] args) {
         String directoryPath;
         String login;
         String password;
-        String secretKey = Constants.KEY_2FA;
-        String email = Constants.EMAIL_2FA;
-        String companyName = Constants.COMPANY_NAME_2FA;
-        String barCodeUrl = TwoFactorAuthentication.getGoogleAuthenticatorBarCode(secretKey, email, companyName);
+        String barCodeUrl = TwoFactorAuthentication.getGoogleAuthenticatorBarCode(Constants.KEY_2FA, Constants.EMAIL_2FA, Constants.COMPANY_NAME_2FA);
 
         Logger.logInfo("Start program");
         try(Scanner scanner = new Scanner(System.in)) {
@@ -33,7 +31,7 @@ public class ApplicationRunner {
                 System.out.print(Constants.MESSAGE_ENTER_2FA);
                 String code = scanner.nextLine().trim();
 
-                if (code.equals(TwoFactorAuthentication.getTOTPCode(secretKey))) {
+                if (code.equals(TwoFactorAuthentication.getTOTPCode(Constants.KEY_2FA))) {
                     Logger.logInfo("Logged in successfully");
                     Logger.logInfo(Constants.DELIMITER_2);
                     System.out.println("Logged in successfully");
@@ -45,28 +43,36 @@ public class ApplicationRunner {
                 }
             }
 
-            while(true){
-                System.out.print("Enter login: ");
-                login = scanner.nextLine().trim();
-                if (AuthValidator.isValidLogin(login)){
+            System.out.print("Enter login: ");
+            login = scanner.nextLine().trim();
+            try {
+                if(AuthValidator.isValidLogin(login)) {
                     Logger.logInfo("Login is valid");
-                    System.out.print("Enter password: ");
-                    password = scanner.nextLine().trim();
-                    if (AuthValidator.isValidPassword(password)){
-                        Logger.logInfo("Password is valid");
-                        break;
-                    }
                 }
+            } catch (InvalidLoginException e) {
+                Logger.logException(e);
+            }
+
+            System.out.print("Enter password: ");
+            password = scanner.nextLine().trim();
+            try {
+                if(AuthValidator.isValidPassword(password)) {
+                   Logger.logInfo("Password is valid");
+                }
+            }catch (InvalidPasswordException e) {
+                Logger.logException(e);
             }
 
             try{
                 Authentication authService = new Authentication();
                 SessionManager session = authService.auth(login, password);
-                Logger.logInfo("Session created " + session );
+
+                Logger.logInfo("Session created");
                 if (session.isSessionValid()) {
+
                     while (true) {
-                        System.out.print("Enter path to directory: ");
                         Logger.logInfo("Enter path to directory");
+                        System.out.print("Enter path to directory: ");
                         directoryPath = scanner.nextLine().trim();
                         if (directoryPath.isEmpty()) {
                             Logger.logInfo("Path cannot be empty. Please, enter path again..");
@@ -76,7 +82,9 @@ public class ApplicationRunner {
                         }
                     }
 
-                    FileProcessor fileProcessor = new FileProcessor(new Statistic());
+                    Statistic statistic =  new Statistic();
+
+                    FileProcessor fileProcessor = new FileProcessor(statistic);
                     Logger.logInfo("Processing check files...");
                     fileProcessor.processDirectory(directoryPath + "/checks" , session);
                     Logger.logInfo("Processing invoices files...");
@@ -84,9 +92,9 @@ public class ApplicationRunner {
                     Logger.logInfo("Processing orders files...");
                     fileProcessor.processDirectory(directoryPath + "/orders" , session);
                     Logger.logInfo("Show statistic to the console");
-                    fileProcessor.getStatistic().printStatistics();
+                    statistic.printStatistics();
                     Logger.logInfo("Save to file report");
-                    fileProcessor.getStatistic().writeStatistic();
+                    statistic.writeStatistic();
                     Logger.logInfo("Upload file report to AWS server");
                     //S3Uploader.s3();//AWS Uploader service
                     Logger.logInfo("Finish program");
@@ -94,12 +102,10 @@ public class ApplicationRunner {
                 } else {
                     Logger.logInfo(Constants.MESSAGE_SESSION_NOT_VALID);
                 }
-
             }catch (InvalidAuthException e){
                 Logger.logException(e);
                 System.out.println("Authorization exception: " + e.getMessage() + Constants.MESSAGE_CODE_ERROR + e.getErrorCode());
             }
-
         }catch (Exception e){
             Logger.logException(e);
             System.out.println("General exception: " + e.getMessage());

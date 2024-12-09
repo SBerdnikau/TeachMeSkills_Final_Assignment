@@ -1,8 +1,5 @@
 package com.teachmeskills.final_assignment.service;
 
-import com.teachmeskills.final_assignment.log.Logger;
-import com.teachmeskills.final_assignment.utils.Constants;
-
 import java.util.Base64;
 import java.util.Random;
 import java.util.stream.Collectors;

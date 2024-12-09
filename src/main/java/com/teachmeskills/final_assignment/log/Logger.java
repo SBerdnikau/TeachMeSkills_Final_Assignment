@@ -7,6 +7,7 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.nio.file.StandardOpenOption;
 import java.text.SimpleDateFormat;
+import java.util.Arrays;
 import java.util.Date;
 
 public class Logger {
@@ -18,7 +19,7 @@ public class Logger {
         try {
             SimpleDateFormat formater = new SimpleDateFormat("dd-MM-yyyy HH:mm:ss");
             String dateTime = formater.format(new Date());
-            String infoMessage = "[INFO]\t\t" + dateTime + "\t\t" + message + "\n";
+            String infoMessage = "[INFO]\t" + dateTime + "\t" + message + "\n";
             Files.write(Paths.get(Constants.PATH_TO_LOG_EVENT), infoMessage.getBytes(), StandardOpenOption.APPEND);
         }catch (Exception e){
             throw new InvalidWriteLoggerException(Constants.MESSAGE_FILE_NOT_WRITTEN, Constants.ERROR_CODE_LOG);
@@ -30,8 +31,8 @@ public class Logger {
             SimpleDateFormat formater = new SimpleDateFormat("dd-MM-yyyy HH:mm:ss");
             String dateTime = formater.format(new Date());
             StringBuilder stringBuilder = new StringBuilder();
-            stringBuilder.append("[ERROR]\t\t" + dateTime + "\t\t" + exception.getMessage() + "\n");
-            stringBuilder.append(exception.getStackTrace());
+            stringBuilder.append("[ERROR]\t" + dateTime + "\t" + exception.getMessage() + "\n");
+            stringBuilder.append(Arrays.toString(exception.getStackTrace()));
 
             StackTraceElement[] stackTrace = exception.getStackTrace();
             for (StackTraceElement element : stackTrace) {

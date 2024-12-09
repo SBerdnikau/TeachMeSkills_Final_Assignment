@@ -41,6 +41,23 @@ public class Statistic {
         System.out.println(statistic);
     }
 
+    public void writeStatistic() throws InvalidWriteFileException {
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter(Constants.PATH_TO_STATISTIC_FILE))) {
+            writer.write(String.format(Constants.HEAD_STATISTIC) +
+                    String.format("\nType\t\t\t\t\t|\tTotal amount\n") +
+                    String.format(Constants.DELIMITER_2) +
+                    String.format("\nTotal Check Amount:\t\t|\t%.2f", totalCheckAmount) +
+                    String.format("\nTotal Invoice Amount:\t|\t%.2f", totalInvoiceAmount) +
+                    String.format("\nTotal Order Amount:\t\t|\t%.2f\n", totalOrderAmount) +
+                    String.format(Constants.DELIMITER_1));
+            writer.newLine();
+            Logger.logInfo("The file is was recorded successful");
+        } catch (IOException e) {
+            Logger.logException(e);
+            throw new InvalidWriteFileException("File statistic not was recorded\t" , Constants.ERROR_CODE_STATISTIC);
+        }
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -52,27 +69,6 @@ public class Statistic {
     @Override
     public int hashCode() {
         return Objects.hash(totalCheckAmount, totalInvoiceAmount, totalOrderAmount);
-    }
-
-    public void writeStatistic() throws InvalidWriteFileException {
-        Logger.logInfo("Saving to file");
-        try (BufferedWriter writer = new BufferedWriter(new FileWriter(Constants.PATH_TO_STATISTIC_FILE))) {
-             writer.write(String.format(Constants.HEAD_STATISTIC) +
-                    String.format("\nType\t\t\t\t\t|\tTotal amount\n") +
-                    String.format(Constants.DELIMITER_2) +
-                    String.format("\nTotal Check Amount:\t\t|\t%.2f", totalCheckAmount) +
-                    String.format("\nTotal Invoice Amount:\t|\t%.2f", totalInvoiceAmount) +
-                    String.format("\nTotal Order Amount:\t\t|\t%.2f\n", totalOrderAmount) +
-                    String.format(Constants.DELIMITER_1));
-            writer.newLine();
-            Logger.logInfo("The file is was recorded successful");
-        } catch (IOException e) {
-            //Logger.logException("Directory not found, file not was recorded");
-            Logger.logException(e);
-            throw new InvalidWriteFileException("File statistic not was recorded\t" , Constants.ERROR_CODE_STATISTIC);
-        }
-
-
     }
 
 }

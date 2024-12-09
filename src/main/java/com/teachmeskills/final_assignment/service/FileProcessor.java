@@ -72,7 +72,7 @@ public class FileProcessor {
     }
 
     private void processFile(File file) throws  IOException {
-        String fileName = file.getName();
+        String fileName = file.getName().toLowerCase();
         String fileContent = Files.readString(file.toPath());
 
         if (processedFiles.contains(fileContent.hashCode() + "")) {
@@ -82,11 +82,11 @@ public class FileProcessor {
 
         processedFiles.add(fileContent.hashCode() + "");
 
-        if (fileName.contains("Electric_Bill")) {
+        if (fileName.contains("electric_bill")) {
             parseAmount(fileContent, Constants.CHECK_REGEX, new CheckImpl());
-        } else if (fileName.contains("invoice") || fileName.contains("INVOICE")) {
+        } else if (fileName.contains("invoice")) {
             parseAmount(fileContent, Constants.INVOICE_REGEX, new InvoiceImpl());
-        } else if (fileName.contains("Order") || fileName.contains("ORDER")) {
+        } else if (fileName.contains("order")) {
            parseAmount(fileContent, Constants.ORDER_REGEX, new OrderImpl());
         } else {
             Logger.logInfo("File does not match known formats: " + fileName);
@@ -105,31 +105,25 @@ public class FileProcessor {
         if (matcher.find())  {
             if (document instanceof OrderImpl){
                 statistic.addOrder(new OrderImpl(Double.parseDouble(matcher.group(1).replace(",", ""))));
-                Logger.logInfo("Result checking is  " + matcher.hasMatch() );
+                Logger.logInfo("Result order file checking is  " + matcher.hasMatch() );
             } else if (document instanceof InvoiceImpl) {
                 statistic.addInvoice(new InvoiceImpl(Double.parseDouble(matcher.group(1).replace(",", "."))));
-                Logger.logInfo("Result checking is  " + matcher.hasMatch() );
+                Logger.logInfo("Result invoice file checking is  " + matcher.hasMatch() );
             }else if (document instanceof CheckImpl){
                 statistic.addCheck(new CheckImpl(Double.parseDouble(matcher.group(1).replace(",", "."))));
-                Logger.logInfo("Result checking is  " + matcher.hasMatch() );
+                Logger.logInfo("Result check file checking is  " + matcher.hasMatch() );
             }
         }else {
-            Logger.logInfo("Incorrect format : " + content);
+            Logger.logInfo("Incorrect format file");
         }
     }
 
-    public Statistic getStatistic() {
-        return statistic;
-    }
-
     private static void saveInvalidFile(String message) throws  InvalidWriteFileException {
-            String infoMessage =  message + "\n";
-           try {
-               Files.write(Paths.get("src/main/resources/invalid/invalid_documents.txt"), infoMessage.getBytes(), StandardOpenOption.APPEND) ;
-           }catch (IOException e){
-               throw new InvalidWriteFileException(Constants.MESSAGE_FILE_NOT_WRITTEN + e.getMessage());
-           }
-
+       String infoMessage =  message + "\n";
+       try {
+           Files.write(Paths.get("src/main/resources/invalid/invalid_documents.txt"), infoMessage.getBytes(), StandardOpenOption.APPEND) ;
+       }catch (IOException e){
+           throw new InvalidWriteFileException(Constants.MESSAGE_FILE_NOT_WRITTEN + e.getMessage());
+       }
     }
-
 }
