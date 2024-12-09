@@ -9,6 +9,7 @@ import com.teachmeskills.final_assignment.model.check.CheckImpl;
 import com.teachmeskills.final_assignment.model.invoice.InvoiceImpl;
 import com.teachmeskills.final_assignment.model.order.OrderImpl;
 import com.teachmeskills.final_assignment.model.statistic.Statistic;
+import com.teachmeskills.final_assignment.properties.PropertiesManager;
 import com.teachmeskills.final_assignment.session.SessionManager;
 import com.teachmeskills.final_assignment.utils.Constants;
 
@@ -32,7 +33,7 @@ public class FileProcessor {
         this.processedFiles = new HashSet<>();
     }
 
-    public void processDirectory(String directoryPath, SessionManager session) throws InvalidDirectoryException, IOException {
+    public void processDirectory(String directoryPath, SessionManager session) throws InvalidDirectoryException, InvalidFileException {
 
         if(session.isSessionValid()){
             File directory = new File(directoryPath);
@@ -92,8 +93,10 @@ public class FileProcessor {
         }
     }
 
-    private boolean isValidFile(File file)  {
-       return file.isFile() && file.getName().endsWith(".txt") && file.getName().contains("2024");
+    private boolean isValidFile(File file) throws InvalidFileException {
+       String documentExtension = PropertiesManager.loadProperties().getProperty("document.extension");
+       String documentYear = PropertiesManager.loadProperties().getProperty("document.year");
+       return file.isFile() && file.getName().endsWith(documentExtension) && file.getName().contains(documentYear);
     }
 
     private void parseAmount(String content, String regex, Document document) {
