@@ -4,6 +4,9 @@ import com.teachmeskills.final_assignment.model.Document;
 
 import java.util.Objects;
 
+/**
+ * This class is used to describe check files.
+ */
 public class CheckImpl implements Document {
 
     private  double totalAmount;

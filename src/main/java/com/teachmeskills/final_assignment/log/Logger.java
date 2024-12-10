@@ -10,6 +10,9 @@ import java.text.SimpleDateFormat;
 import java.util.Arrays;
 import java.util.Date;
 
+/**
+ * This class is used to log program data and write logs to the corresponding files.
+ */
 public class Logger {
 
     public Logger() {
@@ -31,12 +34,12 @@ public class Logger {
             SimpleDateFormat formater = new SimpleDateFormat("dd-MM-yyyy HH:mm:ss");
             String dateTime = formater.format(new Date());
             StringBuilder stringBuilder = new StringBuilder();
-            stringBuilder.append("[ERROR]\t" + dateTime + "\t" + exception.getMessage() + "\n");
+            stringBuilder.append("[ERROR]\t").append(dateTime).append("\t").append(exception.getMessage()).append("\n");
             stringBuilder.append(Arrays.toString(exception.getStackTrace()));
 
             StackTraceElement[] stackTrace = exception.getStackTrace();
             for (StackTraceElement element : stackTrace) {
-                stringBuilder.append("\t" + element.toString() + "\n");
+                stringBuilder.append("\t").append(element.toString()).append("\n");
             }
 
             Files.write(Paths.get(Constants.PATH_TO_LOG_ERROR), stringBuilder.toString().getBytes(), StandardOpenOption.APPEND) ;

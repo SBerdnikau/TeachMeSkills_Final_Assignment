@@ -5,7 +5,7 @@ import java.util.Random;
 import java.util.stream.Collectors;
 
 /**
- * class for encryption and decryption of login and password
+ * This class is used to encrypt and decrypt user login and password.
  */
 public class EncryptService {
 

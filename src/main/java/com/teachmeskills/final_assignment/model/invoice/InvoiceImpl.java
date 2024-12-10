@@ -4,6 +4,9 @@ import com.teachmeskills.final_assignment.model.Document;
 
 import java.util.Objects;
 
+/**
+ * This class is used to describe invoices files.
+ */
 public class InvoiceImpl implements Document {
 
     private  double totalAmount;

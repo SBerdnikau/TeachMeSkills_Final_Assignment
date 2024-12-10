@@ -18,7 +18,7 @@ public class ApplicationRunner {
     public static void main(String[] args) {
         String directoryPath;
         String login;
-        String password;
+        String password = "";
         String barCodeUrl = TwoFactorAuthentication.getGoogleAuthenticatorBarCode(Constants.KEY_2FA, Constants.EMAIL_2FA, Constants.COMPANY_NAME_2FA);
 
         Logger.logInfo("Start program");
@@ -46,20 +46,20 @@ public class ApplicationRunner {
             System.out.print("Enter login: ");
             login = scanner.nextLine().trim();
             try {
-                if(AuthValidator.isValidLogin(login)) {
+                if (AuthValidator.isValidLogin(login)) {
                     Logger.logInfo("Login is valid");
                 }
-            } catch (InvalidLoginException e) {
+            }catch (InvalidLoginException e) {
                 Logger.logException(e);
             }
 
             System.out.print("Enter password: ");
             password = scanner.nextLine().trim();
             try {
-                if(AuthValidator.isValidPassword(password)) {
-                   Logger.logInfo("Password is valid");
+                if (AuthValidator.isValidPassword(password)){
+                    Logger.logInfo("Password is valid");
                 }
-            }catch (InvalidPasswordException e) {
+            } catch (InvalidPasswordException e) {
                 Logger.logException(e);
             }
 
@@ -95,7 +95,7 @@ public class ApplicationRunner {
                     statistic.printStatistics();
                     Logger.logInfo("Save to file report");
                     statistic.writeStatistic();
-                    Logger.logInfo("Upload file report to AWS server");
+                    Logger.logInfo("Upload file report to AWS server start");
                     //S3Uploader.s3();//AWS Uploader service
                     Logger.logInfo("Finish program");
 

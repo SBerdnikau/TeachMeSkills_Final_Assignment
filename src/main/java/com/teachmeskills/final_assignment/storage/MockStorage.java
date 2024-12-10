@@ -1,7 +1,7 @@
 package com.teachmeskills.final_assignment.storage;
 
 /**
- * user data storage location
+ * This class is used as a stub instead of a database to store login and password.
  */
 public class MockStorage {
     private final String login = "mxolxqh0tciun9idnsyaYWRtaW4=";

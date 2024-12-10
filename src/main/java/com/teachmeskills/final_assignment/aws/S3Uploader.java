@@ -1,6 +1,5 @@
 package com.teachmeskills.final_assignment.aws;
 
-
 import com.teachmeskills.final_assignment.exception.InvalidFileException;
 import com.teachmeskills.final_assignment.log.Logger;
 import com.teachmeskills.final_assignment.properties.PropertiesManager;
@@ -14,6 +13,7 @@ import software.amazon.awssdk.services.s3.model.PutObjectRequest;
 import software.amazon.awssdk.services.s3.model.PutObjectResponse;
 
 import java.io.File;
+import java.nio.file.Paths;
 
 /**
  *  class for uploading data to AWS S3 server
@@ -43,12 +43,11 @@ public class S3Uploader {
                     .key(key)
                     .build();
 
-//            response = s3Client.putObject(request, Paths.get(file.toURI()));
-//              Logger.logInfo("Uploading file " + file.getAbsolutePath());
-//            System.out.println(Constants.MESSAGE_SUCCESS_UPLOAD_TO_AWS + response.eTag());
+              response = s3Client.putObject(request, Paths.get(file.toURI()));
+              Logger.logInfo(Constants.MESSAGE_SUCCESS_UPLOAD_TO_AWS + response.eTag());
         }catch (Exception e){
             Logger.logException(e);
-            System.out.println("General exception connection or uploaded" + e.getMessage());
+            System.out.println(Constants.MESSAGE_EXCEPTION_UPLOAD_AWS + e.getMessage() + Constants.MESSAGE_CODE_ERROR + Constants.ERROR_CODE_UPLOAD);
         }
     }
 }

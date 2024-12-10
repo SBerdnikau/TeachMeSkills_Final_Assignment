@@ -12,6 +12,10 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Objects;
 
+/**
+ * This class is used to describe the result of file processing statistics
+ * and output information to a file and to the console.
+ */
 public class Statistic {
 
     private double totalCheckAmount;
@@ -31,25 +35,19 @@ public class Statistic {
     }
 
     public void printStatistics() {
-        String statistic = String.format(Constants.HEAD_STATISTIC) +
-                String.format("\nType\t\t\t\t\t|\tTotal amount\n") +
-                String.format(Constants.DELIMITER_2) +
+        String statistic = Constants.HEAD_STATISTIC + "\nType\t\t\t\t\t|\tTotal amount\n" + Constants.DELIMITER_2 +
                 String.format("\nTotal Check Amount:\t\t|\t%.2f", totalCheckAmount) +
                 String.format("\nTotal Invoice Amount:\t|\t%.2f", totalInvoiceAmount) +
-                String.format("\nTotal Order Amount:\t\t|\t%.2f\n", totalOrderAmount) +
-                String.format(Constants.DELIMITER_1);
+                String.format("\nTotal Order Amount:\t\t|\t%.2f\n", totalOrderAmount) + Constants.DELIMITER_1;
         System.out.println(statistic);
     }
 
     public void writeStatistic() throws InvalidWriteFileException {
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(Constants.PATH_TO_STATISTIC_FILE))) {
-            writer.write(String.format(Constants.HEAD_STATISTIC) +
-                    String.format("\nType\t\t\t\t\t|\tTotal amount\n") +
-                    String.format(Constants.DELIMITER_2) +
+            writer.write(Constants.HEAD_STATISTIC + "\nType\t\t\t\t\t|\tTotal amount\n" + Constants.DELIMITER_2 +
                     String.format("\nTotal Check Amount:\t\t|\t%.2f", totalCheckAmount) +
                     String.format("\nTotal Invoice Amount:\t|\t%.2f", totalInvoiceAmount) +
-                    String.format("\nTotal Order Amount:\t\t|\t%.2f\n", totalOrderAmount) +
-                    String.format(Constants.DELIMITER_1));
+                    String.format("\nTotal Order Amount:\t\t|\t%.2f\n", totalOrderAmount) + Constants.DELIMITER_1);
             writer.newLine();
             Logger.logInfo("The file is was recorded successful");
         } catch (IOException e) {
@@ -63,12 +61,13 @@ public class Statistic {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Statistic statistic = (Statistic) o;
-        return Double.compare(totalCheckAmount, statistic.totalCheckAmount) == 0 && Double.compare(totalInvoiceAmount, statistic.totalInvoiceAmount) == 0 && Double.compare(totalOrderAmount, statistic.totalOrderAmount) == 0;
+        return Double.compare(totalCheckAmount, statistic.totalCheckAmount) == 0 &&
+                Double.compare(totalInvoiceAmount, statistic.totalInvoiceAmount) == 0 &&
+                Double.compare(totalOrderAmount, statistic.totalOrderAmount) == 0;
     }
 
     @Override
     public int hashCode() {
         return Objects.hash(totalCheckAmount, totalInvoiceAmount, totalOrderAmount);
     }
-
 }

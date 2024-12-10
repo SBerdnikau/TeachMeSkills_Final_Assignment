@@ -56,7 +56,7 @@ public class SessionManager {
             this.expDate = calendar.getTime();
         } catch (InvalidFileException e) {
             Logger.logException(e);
-            System.out.println("Error reading property file: " + e.getMessage() + Constants.MESSAGE_CODE_ERROR + e.getCodeError());
+            System.out.println(Constants.MESSAGE_EXCEPTION_READ_PROPERTY + e.getMessage() + Constants.MESSAGE_CODE_ERROR + Constants.ERROR_CODE_FILE);
         }
     }
 }
