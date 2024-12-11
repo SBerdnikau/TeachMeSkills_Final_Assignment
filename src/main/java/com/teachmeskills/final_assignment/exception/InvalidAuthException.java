@@ -1,6 +1,6 @@
 package com.teachmeskills.final_assignment.exception;
 
-public class InvalidAuthException extends Exception{
+public class InvalidAuthException extends Exception {
     private int errorCode;
 
     public InvalidAuthException(String message) {

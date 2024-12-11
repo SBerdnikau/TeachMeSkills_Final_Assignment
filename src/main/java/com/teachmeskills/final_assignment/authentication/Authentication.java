@@ -2,9 +2,9 @@ package com.teachmeskills.final_assignment.authentication;
 
 import com.teachmeskills.final_assignment.exception.InvalidAuthException;
 import com.teachmeskills.final_assignment.log.Logger;
-import com.teachmeskills.final_assignment.storage.MockStorage;
 import com.teachmeskills.final_assignment.service.EncryptService;
 import com.teachmeskills.final_assignment.session.SessionManager;
+import com.teachmeskills.final_assignment.storage.MockStorage;
 import com.teachmeskills.final_assignment.utils.Constants;
 
 /**
@@ -13,12 +13,12 @@ import com.teachmeskills.final_assignment.utils.Constants;
 public class Authentication {
 
     /**
-     * @param login - insert user login
+     * @param login    - insert user login
      * @param password - insert user password
      * @return if true, object SessionManager or return exception
      * @throws InvalidAuthException - thrown when authorization fails
      */
-    public SessionManager auth(String login, String password) throws InvalidAuthException{
+    public SessionManager auth(String login, String password) throws InvalidAuthException {
 
         MockStorage storageLikeDB = new MockStorage();
 
@@ -34,14 +34,14 @@ public class Authentication {
         Logger.logInfo("Finish checking login is " + isLogin);
 
         Logger.logInfo(Constants.MESSAGE_CHECKING_PASSWORD);
-        boolean isPassword =  password.equals(passwordFromDB);
+        boolean isPassword = password.equals(passwordFromDB);
         Logger.logInfo("Finish checking password is " + isPassword);
 
-        if(isLogin && isPassword) {
+        if (isLogin && isPassword) {
             Logger.logInfo(Constants.MESSAGE_AUTH_SUCCESSFUL);
             Logger.logInfo(Constants.DELIMITER_2);
             return new SessionManager();
-        }else {
+        } else {
             Logger.logInfo(Constants.MESSAGE_AUTH_FAILED);
             Logger.logInfo(Constants.DELIMITER_1);
             throw new InvalidAuthException(Constants.MESSAGE_INCORRECT_AUTH, Constants.ERROR_CODE_AUTH);

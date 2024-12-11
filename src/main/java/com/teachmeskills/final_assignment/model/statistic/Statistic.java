@@ -1,6 +1,5 @@
 package com.teachmeskills.final_assignment.model.statistic;
 
-import com.teachmeskills.final_assignment.exception.InvalidWriteFileException;
 import com.teachmeskills.final_assignment.log.Logger;
 import com.teachmeskills.final_assignment.model.check.CheckImpl;
 import com.teachmeskills.final_assignment.model.invoice.InvoiceImpl;
@@ -35,24 +34,23 @@ public class Statistic {
     }
 
     public void printStatistics() {
-        String statistic = Constants.HEAD_STATISTIC + "\nType\t\t\t\t\t|\tTotal amount\n" + Constants.DELIMITER_2 +
-                String.format("\nTotal Check Amount:\t\t|\t%.2f", totalCheckAmount) +
-                String.format("\nTotal Invoice Amount:\t|\t%.2f", totalInvoiceAmount) +
-                String.format("\nTotal Order Amount:\t\t|\t%.2f\n", totalOrderAmount) + Constants.DELIMITER_1;
+        String statistic = Constants.HEAD_STATISTIC + Constants.TOTAL_AMOUNT_STATISTIC + Constants.DELIMITER_2 +
+                String.format(Constants.CHECK_AMOUNT_STATISTIC, totalCheckAmount) +
+                String.format(Constants.INVOICE_AMOUNT_STATISTIC, totalInvoiceAmount) +
+                String.format(Constants.ORDER_AMOUNT_STATISTIC, totalOrderAmount) + Constants.DELIMITER_1;
         System.out.println(statistic);
     }
 
-    public void writeStatistic() throws InvalidWriteFileException {
+    public void writeStatistic() {
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(Constants.PATH_TO_STATISTIC_FILE))) {
-            writer.write(Constants.HEAD_STATISTIC + "\nType\t\t\t\t\t|\tTotal amount\n" + Constants.DELIMITER_2 +
-                    String.format("\nTotal Check Amount:\t\t|\t%.2f", totalCheckAmount) +
-                    String.format("\nTotal Invoice Amount:\t|\t%.2f", totalInvoiceAmount) +
-                    String.format("\nTotal Order Amount:\t\t|\t%.2f\n", totalOrderAmount) + Constants.DELIMITER_1);
+            writer.write(Constants.HEAD_STATISTIC + Constants.TOTAL_AMOUNT_STATISTIC + Constants.DELIMITER_2 +
+                    String.format(Constants.CHECK_AMOUNT_STATISTIC, totalCheckAmount) +
+                    String.format(Constants.INVOICE_AMOUNT_STATISTIC, totalInvoiceAmount) +
+                    String.format(Constants.ORDER_AMOUNT_STATISTIC, totalOrderAmount) + Constants.DELIMITER_1);
             writer.newLine();
-            Logger.logInfo("The file is was recorded successful");
+            Logger.logInfo(Constants.MESSAGE_FILE_RECORD_SUCCESS);
         } catch (IOException e) {
             Logger.logException(e);
-            throw new InvalidWriteFileException("File statistic not was recorded\t" , Constants.ERROR_CODE_STATISTIC);
         }
     }
 

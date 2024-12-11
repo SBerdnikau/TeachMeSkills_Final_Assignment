@@ -14,9 +14,11 @@ import software.amazon.awssdk.services.s3.model.PutObjectResponse;
 
 import java.io.File;
 import java.nio.file.Paths;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 /**
- *  class for uploading data to AWS S3 server
+ * This class for uploading data to AWS S3 server
  */
 public class S3Uploader {
 
@@ -26,10 +28,12 @@ public class S3Uploader {
         String bucketName = PropertiesManager.loadProperties().getProperty("bucketName");
         String regionName = PropertiesManager.loadProperties().getProperty("regionName");
 
-        String key = Constants.KEY_S3_NAME_FILE_REPORT;
+        String date = new SimpleDateFormat("dd-MM-yyyy HH:mm:ss").format(new Date());
+
+        String key = date + Constants.KEY_S3_NAME_FILE_REPORT;
         File file = new File(Constants.PATH_TO_REPORT_FILE);
 
-       AwsCredentials credentials = AwsBasicCredentials.create(accessKey, secretKey);
+        AwsCredentials credentials = AwsBasicCredentials.create(accessKey, secretKey);
 
         PutObjectResponse response;
         try (S3Client s3Client = S3Client
@@ -43,9 +47,9 @@ public class S3Uploader {
                     .key(key)
                     .build();
 
-              response = s3Client.putObject(request, Paths.get(file.toURI()));
-              Logger.logInfo(Constants.MESSAGE_SUCCESS_UPLOAD_TO_AWS + response.eTag());
-        }catch (Exception e){
+            response = s3Client.putObject(request, Paths.get(file.toURI()));
+            Logger.logInfo(Constants.MESSAGE_SUCCESS_UPLOAD_TO_AWS + response.eTag());
+        } catch (Exception e) {
             Logger.logException(e);
             System.out.println(Constants.MESSAGE_EXCEPTION_UPLOAD_AWS + e.getMessage() + Constants.MESSAGE_CODE_ERROR + Constants.ERROR_CODE_UPLOAD);
         }

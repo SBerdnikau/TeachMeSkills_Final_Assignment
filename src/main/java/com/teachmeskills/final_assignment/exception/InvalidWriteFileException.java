@@ -1,6 +1,6 @@
 package com.teachmeskills.final_assignment.exception;
 
-public class InvalidWriteFileException extends Exception{
+public class InvalidWriteFileException extends Exception {
     private int codeError;
 
     public InvalidWriteFileException(String message) {

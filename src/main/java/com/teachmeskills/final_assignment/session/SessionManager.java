@@ -25,31 +25,32 @@ public class SessionManager {
     }
 
     /**
-     *to check if the session is valid
+     * This method to check if the session is valid
+     *
      * @return session validity
      */
-    public boolean isSessionValid(){
-        return  this.accessToken.length() == 16 && this.expDate.after(new Date());
+    public boolean isSessionValid() {
+        return this.accessToken.length() == 16 && this.expDate.after(new Date());
     }
 
     /**
-     * to generate a token
+     * This method to generate a token
      */
     private void setAccessToken() {
         String symbols = "abcdefghijklmnopqrstuvwxyz0123456789";
 
-        this.accessToken =  new Random().ints(16, 0, symbols.length())
+        this.accessToken = new Random().ints(16, 0, symbols.length())
                 .mapToObj(symbols::charAt)
                 .map(Object::toString)
                 .collect(Collectors.joining());
     }
 
     /**
-     * to set the session life date
+     * This method to set the session life date
      */
-    private void setExpDate()  {
+    private void setExpDate() {
         try {
-            int sessionDuration = Integer.parseInt(PropertiesManager.loadProperties().getProperty("session.duration_in_minute","5"));
+            int sessionDuration = Integer.parseInt(PropertiesManager.loadProperties().getProperty("session.duration_in_minute", "5"));
             Calendar calendar = Calendar.getInstance();
             calendar.setTime(new Date());
             calendar.add(Calendar.MINUTE, sessionDuration);

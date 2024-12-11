@@ -1,6 +1,6 @@
 package com.teachmeskills.final_assignment.exception;
 
-public class InvalidPasswordException extends Exception{
+public class InvalidPasswordException extends Exception {
 
     private int errorCode;
 

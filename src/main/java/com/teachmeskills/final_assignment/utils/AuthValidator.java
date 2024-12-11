@@ -17,7 +17,7 @@ public class AuthValidator {
 
     public static boolean isValidPassword(String password) throws InvalidPasswordException {
         if (password == null || password.isEmpty()) {
-           throw new InvalidPasswordException(Constants.MESSAGE_PASSWORD_IS_EMPTY);
+            throw new InvalidPasswordException(Constants.MESSAGE_PASSWORD_IS_EMPTY);
 
         }
         if (password.length() < 6) {

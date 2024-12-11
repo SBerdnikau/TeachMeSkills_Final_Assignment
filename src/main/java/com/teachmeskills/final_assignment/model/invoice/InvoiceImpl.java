@@ -9,7 +9,7 @@ import java.util.Objects;
  */
 public class InvoiceImpl implements Document {
 
-    private  double totalAmount;
+    private double totalAmount;
 
     public InvoiceImpl() {
     }

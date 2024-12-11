@@ -1,6 +1,6 @@
 package com.teachmeskills.final_assignment.exception;
 
-public class InvalidFileException extends Exception{
+public class InvalidFileException extends Exception {
 
     private int codeError;
 

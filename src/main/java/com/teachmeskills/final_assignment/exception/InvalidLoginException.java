@@ -1,6 +1,6 @@
 package com.teachmeskills.final_assignment.exception;
 
-public class InvalidLoginException extends Exception{
+public class InvalidLoginException extends Exception {
 
     private int errorCode;
 

@@ -1,6 +1,6 @@
 package com.teachmeskills.final_assignment.exception;
 
-public class InvalidParseDocumentException extends Exception{
+public class InvalidParseDocumentException extends Exception {
     private int codeError;
 
     public InvalidParseDocumentException(String message) {

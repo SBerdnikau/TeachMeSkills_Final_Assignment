@@ -9,7 +9,7 @@ import java.util.Objects;
  */
 public class CheckImpl implements Document {
 
-    private  double totalAmount;
+    private double totalAmount;
 
     public CheckImpl() {
     }

@@ -18,32 +18,31 @@ public class Logger {
     public Logger() {
     }
 
-    public static void logInfo(String message)  {
+    public static void logInfo(String message) {
         try {
-            SimpleDateFormat formater = new SimpleDateFormat("dd-MM-yyyy HH:mm:ss");
-            String dateTime = formater.format(new Date());
-            String infoMessage = "[INFO]\t" + dateTime + "\t" + message + "\n";
+            String dateTime = new SimpleDateFormat("dd-MM-yyyy HH:mm:ss").format(new Date());
+            String infoMessage = "[INFO]\t" + dateTime + "\t\t" + message + "\n";
             Files.write(Paths.get(Constants.PATH_TO_LOG_EVENT), infoMessage.getBytes(), StandardOpenOption.APPEND);
-        }catch (Exception e){
+        } catch (Exception e) {
             throw new InvalidWriteLoggerException(Constants.MESSAGE_FILE_NOT_WRITTEN, Constants.ERROR_CODE_LOG);
         }
     }
 
     public static void logException(Exception exception) throws InvalidWriteLoggerException {
         try {
-            SimpleDateFormat formater = new SimpleDateFormat("dd-MM-yyyy HH:mm:ss");
-            String dateTime = formater.format(new Date());
+            String dateTime = new SimpleDateFormat("dd-MM-yyyy HH:mm:ss").format(new Date());
             StringBuilder stringBuilder = new StringBuilder();
-            stringBuilder.append("[ERROR]\t").append(dateTime).append("\t").append(exception.getMessage()).append("\n");
+            stringBuilder.append("[ERROR]\t").append(dateTime).append("\t\t").append(exception.getMessage()).append("\n");
             stringBuilder.append(Arrays.toString(exception.getStackTrace()));
+            stringBuilder.append("\n");
 
-            StackTraceElement[] stackTrace = exception.getStackTrace();
+            StackTraceElement[] stackTrace =  exception.getStackTrace();
             for (StackTraceElement element : stackTrace) {
-                stringBuilder.append("\t").append(element.toString()).append("\n");
+                stringBuilder.append("\t\t\t\t").append(element.toString()).append("\n");
             }
 
-            Files.write(Paths.get(Constants.PATH_TO_LOG_ERROR), stringBuilder.toString().getBytes(), StandardOpenOption.APPEND) ;
-        }catch (Exception e){
+            Files.write(Paths.get(Constants.PATH_TO_LOG_ERROR), stringBuilder.toString().getBytes(), StandardOpenOption.APPEND);
+        } catch (Exception e) {
             throw new InvalidWriteLoggerException(Constants.MESSAGE_FILE_NOT_WRITTEN, Constants.ERROR_CODE_LOG);
         }
     }
