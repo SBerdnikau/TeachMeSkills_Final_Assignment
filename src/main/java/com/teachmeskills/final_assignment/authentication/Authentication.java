@@ -38,12 +38,10 @@ public class Authentication {
         Logger.logInfo("Finish checking password is " + isPassword);
 
         if (isLogin && isPassword) {
-            Logger.logInfo(Constants.MESSAGE_AUTH_SUCCESSFUL);
-            Logger.logInfo(Constants.DELIMITER_2);
+            Logger.logInfo(Constants.MESSAGE_AUTH_SUCCESSFUL + "\n" + Constants.DELIMITER_2);
             return new SessionManager();
         } else {
-            Logger.logInfo(Constants.MESSAGE_AUTH_FAILED);
-            Logger.logInfo(Constants.DELIMITER_1);
+            Logger.logInfo(Constants.MESSAGE_AUTH_FAILED + "\n" + Constants.DELIMITER_1);
             throw new InvalidAuthException(Constants.MESSAGE_INCORRECT_AUTH, Constants.ERROR_CODE_AUTH);
         }
     }

@@ -24,22 +24,6 @@ public class ApplicationRunner {
 
         Logger.logInfo("Start program");
         try (Scanner scanner = new Scanner(System.in)) {
-            TwoFactorAuthentication.createQRCode(barCodeUrl, Constants.PATH_TO_QRCODE, 400, 400);
-            Logger.logInfo("QR code created");
-            Logger.logInfo("Waiting for two factor authentication...");
-
-            while (true) {
-                System.out.print(Constants.MESSAGE_ENTER_2FA);
-                String code = scanner.nextLine().trim();
-                if (code.equals(TwoFactorAuthentication.getTOTPCode(Constants.KEY_2FA))) {
-                    Logger.logInfo("Logged in successfully\n" + Constants.DELIMITER_2);
-                    System.out.println("Logged in successfully");
-                    break;
-                } else {
-                    Logger.logInfo("Invalid 2FA Code. Try again...\n" + Constants.DELIMITER_2);
-                    System.out.println(Constants.MESSAGE_INVALID_CODE_2FA);
-                }
-            }
 
             System.out.print("Enter login: ");
             login = scanner.nextLine().trim();
@@ -60,6 +44,23 @@ public class ApplicationRunner {
                 }
             } catch (InvalidPasswordException e) {
                 Logger.logException(e);
+            }
+
+            TwoFactorAuthentication.createQRCode(barCodeUrl, Constants.PATH_TO_QRCODE, 400, 400);
+            Logger.logInfo("QR code created");
+            Logger.logInfo("Waiting for two factor authentication...");
+
+            while (true) {
+                System.out.print(Constants.MESSAGE_ENTER_2FA);
+                String code = scanner.nextLine().trim();
+                if (code.equals(TwoFactorAuthentication.getTOTPCode(Constants.KEY_2FA))) {
+                    Logger.logInfo("Logged in successfully\n" + Constants.DELIMITER_2);
+                    System.out.println("Logged in successfully");
+                    break;
+                } else {
+                    Logger.logInfo("Invalid 2FA Code. Try again...\n" + Constants.DELIMITER_2);
+                    System.out.println(Constants.MESSAGE_INVALID_CODE_2FA);
+                }
             }
 
             try {

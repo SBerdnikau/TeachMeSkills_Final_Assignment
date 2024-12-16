@@ -7,6 +7,8 @@
     <groupId>com.teachmeskills.final_assignment</groupId>
     <artifactId>TeachMeSkills_Final_Assignment</artifactId>
     <version>1.0.0</version>
+    <packaging>jar</packaging>
+    <name>final_assignment</name>
 
     <properties>
         <maven.compiler.source>21</maven.compiler.source>
@@ -15,18 +17,16 @@
     </properties>
 
     <dependencies>
-        <!-- для работы с S3 -->
         <dependency>
             <groupId>software.amazon.awssdk</groupId>
             <artifactId>s3</artifactId>
-            <version>2.24.9</version>
+            <version>2.29.24</version>
         </dependency>
 
-        <!-- для работы с Secret Manager -->
         <dependency>
             <groupId>software.amazon.awssdk</groupId>
             <artifactId>secretsmanager</artifactId>
-            <version>2.29.6</version>
+            <version>2.29.31</version>
         </dependency>
 
         <dependency>
@@ -45,18 +45,6 @@
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-simple</artifactId>
             <version>2.0.16</version>
-        </dependency>
-        <dependency>
-            <groupId>org.jetbrains</groupId>
-            <artifactId>annotations</artifactId>
-            <version>13.0</version>
-            <scope>compile</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.jetbrains</groupId>
-            <artifactId>annotations</artifactId>
-            <version>13.0</version>
-            <scope>compile</scope>
         </dependency>
 
     </dependencies>
