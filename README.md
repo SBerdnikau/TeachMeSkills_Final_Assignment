@@ -173,7 +173,7 @@ The main goal is to create an application to process financial documents and pro
 
 3. **Sequence Diagram**: Shows the step-by-step flow of the program's logic.
 
-   ![sequence_diagram drawio-2]()he results of the program are saved in a separate folder, the report is uploaded to the cloud storage
+   ![sequence_diagram drawio-2](https://github.com/SBerdnikau/TeachMeSkills_Final_Assignment/blob/master/src/main/resources/diagram/sequence_diagram.jpg)he results of the program are saved in a separate folder, the report is uploaded to the cloud storage
 Additional technical information on the project structure Services:
 
 Authorization service.
