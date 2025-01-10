@@ -36,9 +36,9 @@ The program ensures thorough validation of input data, logging of both general i
    - Example content of `total_statistic.txt`:
     
 ```
-Total Check Amount:		|	19638,94
-Total Invoice Amount:|	5874,35
-Total Order Amount:		|	12609,37
+Total Check Amount:			19638,94
+Total Invoice Amount:   5874,35
+Total Order Amount:			12609,37
 ```
 
 5. **Error Handling**  
