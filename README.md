@@ -169,7 +169,7 @@ The main goal is to create an application to process financial documents and pro
    
 2. **Class Diagram**: Contains classes, their relationships, and responsibilities.
    
-   ![FinancialStatements]()
+   ![FinancialStatements](https://github.com/SBerdnikau/TeachMeSkills_Final_Assignment/blob/master/src/main/resources/diagram/class_diagram.png)
 
 3. **Sequence Diagram**: Shows the step-by-step flow of the program's logic.
 
