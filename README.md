@@ -165,7 +165,7 @@ The main goal is to create an application to process financial documents and pro
 ### Provided Technical Documentation:  
 1. **Solution Diagram**: General system overview diagram.
 
-   ![solution_diagramm]()
+   ![solution_diagramm](https://github.com/SBerdnikau/TeachMeSkills_Final_Assignment/blob/master/src/main/resources/diagram/solution_diagram.png)
    
 2. **Class Diagram**: Contains classes, their relationships, and responsibilities.
    
