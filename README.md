@@ -33,12 +33,15 @@ The program ensures thorough validation of input data, logging of both general i
        - Total turnover for all invoices.  
        - Total turnover for all orders.  
        - Total turnover for all checks.  
-   - Example content of `statistics.txt`:  
+   - Example content of `total_statistic.txt`:  
      ```text  
-     Statistics:  
-       - Total turnover for all invoices: 8912,13  
-       - Total turnover for all orders: 13837,38  
-       - Total turnover for all checks: 19638,94  
+     ====================FINANCIAL STATISTICS===========================
+    Type					            |	Total amount
+    -------------------------------------------------------------------
+   Total Check Amount:		 |	19638,94
+   Total Invoice Amount:	|	5874,35
+   Total Order Amount:		 |	12609,37
+   ===================================================================
      ```  
 
 5. **Error Handling**  
